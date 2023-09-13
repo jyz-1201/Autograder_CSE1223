@@ -1,0 +1,3156 @@
+name,id,section,section_id,submitted,attempt,12507215: Match each keyword to the appropriate definition:,5.0,12495497: All of the following are correct method headers. Which of the following are headers for procedures? (Mark all that apply),2.0,"12495498: 
+What is the output of the following segment of code?
+int x = 8;int y = 3;int z = x + y;System.out.println(z);
+",2.0,"12519516: The following segment of code contains an error. Which line is the error on? (note that line numbers are provided to the left and are not a part of the code.)
+
+1. public static void main(String[] args) {2.     Scanner input = Scanner(System.in);3.     System.out.print(""Enter your name: "");4.     String name = input.nextLine();5.     System.out.println(""Hello "" + name);6.     input.close();7. }",2.0,"12495500: 
+For this solution make sure you change the formatting on your answer to ""Preformatted"". Your answer will be graded on your formatting as well as your solution.
+Copy the skeleton of code below into your answer. Then in the space indicated, add your own code to prompt the user for two numbers and a string and then prints the product of those numbers with a message to the user (text inboldis input entered by the user). Note that the final output should be on a line by itself.
+Enter the first: 10Enter the second: 3Enter your name: Barry AllenBarry Allen, the product is 30
+Use the skeleton of the main method below to write your code.
+public static void main(String[] args) {    Scanner input = new Scanner(System.in);  // TODO: Your code below this line    input.close();}
+
+",5.0,"12507216: 
+What is the output of the following segment of code?
+int x = 6;int y = 4;int z = x + y;System.out.println(z);
+",2.0,"12507217: 
+For this solution make sure you change the formatting on your answer to ""Preformatted"". Your answer will be graded on your formatting as well as your solution.
+Copy the skeleton of code below into your answer. Then in the space indicated, add your own code to prompt the user for two numbers and a string and then prints the sum of those numbers with a message to the user (text inboldis input entered by the user). Note that the final output should be on a line by itself.
+Enter the first: 12Enter the second: 3Enter your name: Hal JordanHal Jordan, the sum is 15
+Use the skeleton of the main method below to write your code.
+public static void main(String[] args) {    Scanner input = new Scanner(System.in);  // TODO: Your code below this line    input.close();}
+
+",5.0,12519515: All of the following are correct method headers. Which of them are headers for functions? (Mark all that apply),2.0,12519514: Match each keyword to the appropriate definition:,5.0,"12495499: The following segment of code contains an error. Which line is the error on? (note that line numbers are provided to the left and are not a part of the code.)
+
+1. public static void main(String[] args) {2.     Scanner input = new Scanner(System.in);3.     System.out.print(""Enter your name: "");4.     name = input.nextLine();5.     System.out.println(""Hello "" + name);6.     input.close();7. }",2.0,"12519523: 
+For this solution make sure you change the formatting on your answer to ""Preformatted"". Your answer will be graded on your formatting as well as your solution.
+Copy the skeleton of code below into your answer. Then in the space indicated, add your own code to prompt the user for two numbers and a string and then prints the difference of those numbers with a message to the user (text inboldis input entered by the user). Note that the final output should be on a line by itself. Recall that the difference of two numbers is found by subtracting the second number from the first.
+Enter the first: 10Enter the second: 3Enter your name: Dinah DrakeDinah Drake, the difference is 7
+Use the skeleton of the main method below to write your code.
+public static void main(String[] args) {    Scanner input = new Scanner(System.in);  // TODO: Your code below this line    input.close();}
+
+",5.0,12495496: Match each keyword to the appropriate definition:,5.0,"12519522: The following segment of code contains an error. Which line is the error on? (note that line numbers are provided to the left and are not a part of the code.)
+
+1. public static void main(String[] args) {2.     Scanner input = new Scanner(System.in);3.     System.out.print(Enter your name: );4.     String name = input.nextLine();5.     System.out.println(""Hello "" + name);6.     input.close();7. }",2.0,"12519521: 
+What is the output of the following segment of code?
+int x = 7;int y = 2;int z = x + y;System.out.println(z);
+",2.0,n correct,n incorrect,score
+Nikhila Elevarthi,983293,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-03 06:19:36 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,11,2.0,2,2.0,"import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+  // Program asks for numbers
+    System.out.print(""Enter the first: "");
+    String num1 = input.nextLine();
+    System.out.print(""Enter the second: "");
+    String num2 = input.nextLine();
+    
+    int first = Integer.parseInt(num1);
+    int second = Integer.parseInt(num2);
+
+  //Program asks for name
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+    
+    var product = (first * second);
+  //Program prints name and product of numbers
+    System.out.print(name + "", the product is "" + product);
+
+    input.close();
+}
+}",0.0,"","","","","","","","","","","","","","","","","","",5,0,11.0
+Brycen Mickle,1312223,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-02 03:58:01 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+ // Prompt the user to enter the first number
+        System.out.print(""Enter the first: "");
+        int firstNum = input.nextInt();
+
+        // Prompt the user to enter the second number
+        System.out.print(""Enter the second: "");
+        int secondNum = input.nextInt();
+
+        // Consume the newline character left by nextInt()
+        input.nextLine();
+
+        // Prompt the user to enter their name
+        System.out.print(""Enter your name: "");
+        String name = input.nextLine();
+
+        // Calculate the sum of the two numbers
+        int sum = firstNum + secondNum;
+
+        // Display the result with a message
+        System.out.println(name + "", the sum is "" + sum);
+
+        input.close();
+    }
+}",0.0,"","","","","","","","","","","","","","",5,0,11.0
+Mason Bolton,1372086,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-02 03:16:52 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",11,2.0,2,2.0,"import java.util.Scanner;
+
+public class Main {
+   public static void main(String[] args) {
+
+   Scanner input = new Scanner(System.in);
+   // TODO: Your code below this line
+   //Assigning Variables
+   int numOne, numTwo, numProduct;
+   String printName;
+   
+   //Reading Inputs
+   System.out.print(""Enter the first: "");
+      numOne = input.nextInt();
+   System.out.print(""Enter the second: "");
+      numTwo = input.nextInt();
+   System.out.println(""Enter your name: "");
+      String name = input.nextLine();
+      printName = name;
+      
+   numProduct = numOne * numTwo;
+        
+    //Printing Output
+    System.out.println(printName + "", the product is "" + numProduct);
+   }
+}",0.0,"","","","","public String nextLine(),public static void main(String[] args),public static int max(int a\, int b)",1.0,"","","","","","","","","","","","",5,0,10.0
+Victor Wang,948980,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-02 03:08:22 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","",10,2.0,"","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+  int first = input.nextInt();
+  System.out.print(""Enter the second: "");
+  int second = input.nextInt();
+  System.out.print(""Enter your name: "");
+  String space = input.nextLine();
+   /**I use zybooks so there is an ""enter"" after number like
+3
+Dinah Drake
+**/
+  String name = input.nextLine();
+  int subtraction = first - second;
+  System.out.println(space);
+  System.out.println(name + "", the difference is "" + subtraction);
+  input.close();
+
+}",0.0,"","","","","","",5,0,11.0
+Tariq Salama,839923,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-02 02:48:47 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",11,2.0,2,2.0,"    public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+   int num;
+   int num2;
+   String name;
+   System.out.print(""Enter the first: "");
+num = input.nextInt();
+System.out.print(""Enter the second: "");
+num2 = input.nextInt();
+input.nextLine();
+System.out.print(""Enter your name: "");
+name = input.nextLine();
+System.out.println(name + "", "" + ""the product is "" + (num * num2));
+    input.close();
+   }",0.0,"","","","","public void println(String x),public String nextLine(),public static int max(int a\, int b)",1.0,"","","","","","","","","","","","",5,0,10.0
+Abib Abib,1324617,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-02 01:34:06 UTC,1,"","","","","","","","","","",10,2.0,"","","public void println(String x),public static int max(int a\, int b),public static void main(String[] args)",0.0,"","",4,2.0,"import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    System.out.print(""Enter the first: ""); 
+    int firstnumber = input.nextInt();
+    System.out.print(""Enter the second: ""); 
+    int secondnumber = input.nextInt();
+    System.out.print(""Enter your name: ""); 
+    String name = input.nextLine();
+    int difference = firstnumber - secondnumber;
+    System.out.print(name + "", the difference is  "" + difference);
+    input.close();
+}
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Marcelino Aponte,330831,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-02 01:28:52 UTC,1,"","","","","","",2,2.0,"","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  12= scnr.nextInt();
+   3 = scnr.nextInt();
+
+   System.out.print(""Hal Jordan, the sum is 15"");    
+input.close();
+}",0.0,"public String nextLine(),public static int max(int a\, int b),public void println(String x)",1.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",5,0,10.0
+Jennie Wouters,1046555,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-02 01:09:42 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public String nextLine(),public static int max(int a\, int b),public void println(String x)",0.0,11,2.0,2,2.0,"","","","","public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+
+System.out.print(""Enter the first: "");
+String number = input.nextLine();
+  int a = Integer.parseInt(number);
+
+System.out.print(""Enter the second: "");
+  number = input.nextLine();
+  int b = Integer.parseInt(number);
+
+ System.out.print(""Enter your name: ""); 
+ String name = input.nextLine();
+
+System.out.println(name + "", the sum is "" + (a + b));
+
+    input.close();
+
+}",0.0,"","","","","","","","","","","","","","",4,1,9.0
+Emanuel Messele,1366263,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 23:55:26 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",11,2.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+        
+      System.out.println(""Enter the first: "");
+      String number = int.nextLine();
+      int a = Integer.parseInt(number);
+        
+        
+      System.out.println(""Enter the second: "");
+      String number1 = int.nextLine();
+      int b = Integer.parseInt(number1);
+       int sum = a + b;
+     
+System.out.println(""Enter your name: "");
+String name = input.nextLine();
+
+        
+     
+      System.out.println(name+"","" + "" the sum is "" + sum);
+      
+input.close();
+}",0.0,"public String nextLine(),public static void main(String[] args)",0.0,"","","","","","","","",3,2.0,"","",4,1,9.0
+Humaid Alnuaimi,1346249,"","",2023-09-01 23:34:59 UTC,1,"","","","",11,2.0,"","","","","","","","","public static int max(int a\, int b),public String nextLine(),public static void main(String[] args),public void println(String x)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  // TODO: Your code below this line Preformatted
+
+System.out.println(""Enter the first: "");
+
+//  Variable initializer
+
+int num1 = Integer.parseInt(input.nextLine());
+
+System.out.println(""Enter the second: "");
+
+// Variable initializer
+
+int num2 = Integer.parseInt(input.nextLine());
+
+System.out.println(""Enter your name: "");
+
+String name = input.nextLine();
+
+// Calculating difference
+
+int diff = num1 - num2;
+
+System.out.println(name + "", the difference is "" + diff);
+
+input.close();
+}",0.0,"","",3,2.0,"","",4,1,9.0
+Reyhan Can,1456920,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 23:00:44 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","import java.util.Scanner;
+
+public class Main {
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+
+// TODO: 
+       System.out.print(""Enter the first: "");
+       int first = input.nextInt();
+
+      System.out.print(""Enter the second: "");
+      int second = input.nextInt();
+      
+      input.nextLine(); 
+      System.out.print(""Enter your name: "");
+       
+       String name = input.nextLine();
+
+       int difference = first - second;
+
+ 
+       System.out.println(name + "", the difference is "" + difference);
+
+ input.close();
+ }
+}",0.0,"","","","",9,2.0,5,0,11.0
+Andrew Schell,1030342,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 21:39:22 UTC,1,"","","public void println(String x),public static int max(int a\, int b)",0.0,11,2.0,"","","","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.println(""Enter the first: "");
+        String myNumber = keyboard.nextLine();
+      System.out.println(""Enter the second: "");
+        String mySecond = keyboard.nextLine();
+System.out.println(""Enter your name: "");
+        String myName = keyboard.nextLine();
+
+        int value = Integer.parseInt(myNumber);
+        int value2 = Integer.parseInt(mySecond);
+
+System.out.println(myName + "", "" + ""the difference is "" + (myNumber-mySecond));
+
+input.close();
+}",0.0,"","",3,2.0,"","",4,1,9.0
+Chongyi Hu,1280191,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 21:18:01 UTC,2,"","","","","","","","","","",10,2.0,"","","public static void main(String[] args),public static int max(int a\, int b)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+
+    // Prompt user for the first number
+    System.out.print(""Enter the first: "");
+    int firstNum = input.nextInt();
+
+    // Prompt user for the second number
+    System.out.print(""Enter the second: "");
+    int secondNum = input.nextInt();
+
+    // Prompt user for their name
+    System.out.print(""Enter your name: "");
+    input.nextLine();  
+    String name = input.nextLine();
+
+    int difference = firstNum - secondNum;
+
+    System.out.println(name + "", the difference is "" + difference);
+
+    input.close();
+}
+       
+    }",0.0,"","",3,2.0,"","",4,1,9.0
+Rachel Wu,1297929,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 20:58:14 UTC,2,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x)",2.0,"","","","","import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+       
+        Scanner scanner =new Scanner(System.in);
+       System.out.println(""Enter the first: "");
+
+       int n1=scanner.nextInt();
+      System.out.println(""Enter the second: "");
+       int n2=scanner.nextInt();
+       scanner.nextLine();
+       System.out.println(""Enter your name: "");
+       String name=scanner.nextLine();
+       int d=n1*n2;
+       System.out.println(name+"",""+ "" the product is ""+d);
+    }
+
+}",0.0,10,2.0,"","","","","","",4,2.0,"","","","","","","","",5,0,11.0
+William Zhang,1300966,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:24 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,11,2.0,"","","","","","","import java.util.Scanner;
+
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+int numOne;
+int numTwo;
+
+  // Takes input of 2 different Numbers and a Name
+System.out.println(Enter the first: );
+numOne = input.nextLine();
+
+System.out.println(Enter the second: );
+numTwo = input.nextLine();
+
+System.out.println(Enter your name: );
+name = input.nextLine();
+
+//calculates the sum of the two inputs
+sum = numOne + numTwo
+
+//prints out the final statement
+System.out.println(name + "", the sum is "" + sum);
+
+input.close();
+}",0.0,"","","","",3,0.0,"","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Binhang Huang,1424996,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:49:41 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args),public void println(String x)",1.0,11,2.0,2,2.0,"public class Main {
+    
+    public static void main(String[] args) {
+         int a;
+
+         int b;
+
+         String c;
+
+         System.out.println(""Enter the first: "")
+
+         a = input.nextine();
+
+         
+
+input.close();
+}
+
+}",0.0,"","","","","","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>program that runs on a virtual machine,byte code=>computer program that executes byte code,virtual machine=>computer hardware that executes instructions,processor=>translates source code into machine code",1.0,"","","","",5,0,6.0
+Michael Stitt,1330617,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:10:15 UTC,1,"","","public static void main(String[] args),public static int max(int a\, int b)",0.0,"","","","","","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.println(""enter a number"");
+String number = input.nextLine();
+System.out.println(""Enter second number"");
+String number2 = input.nextLine();
+System.out.println(""Enter your name: "");
+String name = input.nextLine();
+input.close();
+}",0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",2,0.0,"","",3,2,9.0
+Diktschhya Subedi,938247,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 20:28:41 UTC,1,"","","","","","",4,0.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+
+ System.out.print(""Enter the first: "");
+      String Num1 = input.nextline();
+      
+      System.out.print(""Enter the second: "");
+      String Num2 = input.nextline();
+      
+      int a = Integer.parseInt(Num1);
+      int b = Integer.parseInt(Num2);
+      
+
+      System.out.print(""Enter your name: "");
+      String myName = input.nextLine();
+      
+    System.out.println(myName + "" the product is"" + (a ""*"" b));
+      
+      input.close();",0.0,10,2.0,"","","public String nextLine(),public static int max(int a\, int b)",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Clarke Xu,1035451,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 20:25:27 UTC,1,"","","","","","",2,2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  Sytem.out.print(""Enter the first: "");
+int firstNumber = input.nextInt();
+
+System.out.print(""Enter the second: "");
+int secondNumber = input.nextInt();
+
+input.nextLine();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+int difference = firstNumber - secondNumber;
+System.out.println(name + "", the difference is "" + difference);
+input.close();
+}
+}",0.0,"public static void main(String[] args),public void println(String x)",0.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",9,2.0,4,1,9.0
+Teejay Hodges,568594,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 20:16:12 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"","","","","import java.util.Scanner;
+
+public class Main {
+public static void main(String args[]) {
+
+Scanner input = new Scanner(System.in);
+
+/* Prompts user to enter two integers, which are then added 
+together for the sum */
+
+System.out.print(""Enter the first: "");
+int num1 = input.nextInt();
+
+System.out.print(""Enter the second: "");
+int num2 = input.nextInt();
+
+int sum = num1 + num2;
+
+/* After prompting user to enter their name, 
+the program will output the user's name followed
+by the sum of the two integers */
+
+System.out.print(""Enter your name: "");
+String name = input.next();
+
+System.out.print(name + "", the sum is "" + sum);
+  
+input.close();
+
+/* As a note, when pasting this into Zybooks
+there are a series of red dots I assume are from the
+formatting of this text box. Please remove the weird
+symbols that appear & it should run correctly! */
+ }
+
+}",0.0,"","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",9,2.0,5,0,11.0
+Ellen Guddy,744452,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 20:11:09 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>computer hardware that executes instructions,virtual machine=>computer program that executes byte code,processor=>a Java class that is used to read input",3.0,"","",11,2.0,2,2.0,"public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+  System.out.println(""Enter the first: "");
+   String number = input.nextLine();
+   int a = Integer.parseInt(number);
+  System.out.println(""Enter the second: "");
+   number = input.nextLine();
+  int b = Integer.parseInt(number);
+    int sum = a + b; 
+    System.out.println(""Enter your name: "");
+    String name = input.nextLine();
+    System.out.println(name + "" ,the product is "" + sum);
+
+   input.close();
+}",0.0,"","","","","public static int max(int a\, int b)",1.0,"","","","","","","","","","","","",5,0,8.0
+Cardan Mutai,768723,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 20:10:56 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,11,2.0,"","","","","","","import java.util.Scanner;
+public class Main {
+
+       public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    int firstNum = input.nextInt();
+    int secondNum = input.nextInt();
+    String name = input.next();
+    System.out.print(""Enter the first: "");
+    System.out.print(""Enter the second: "");
+    System.out.print(""Enter your name: "");
+    System.out.println(name + "", the sum is "" + firstNum + secondNum);
+    input.close();
+   }
+}
+       
+    
+
+ ",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",5,0,11.0
+Yakob Getu,1377832,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 20:10:08 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public String nextLine()",0.0,"","","","","import java.util.Scanner;
+
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    //TODO: Your code below this line
+
+    // Prompting the user to enter the first number
+    System.out.print(""Enter the first: "");
+    int firstNumber = input.nextInt();
+    
+    // Prompting the user to enter the second number
+    System.out.print(""Enter the second: "");
+    int secondNumber = input.nextInt();
+    
+    // Clear the newline 
+    input.nextLine();
+    
+    // Prompt the user to enter their name
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+    
+    // Calculate the product of the two numbers
+    int product = firstNumber * secondNumber;
+    
+    // Print the message with the user's name and the product
+    System.out.println(name + "", the product is "" + product);
+    
+    input.close();
+}",0.0,"","","","","","","","",4,2.0,"","","","","","",9,2.0,4,1,9.0
+Neal Xu,1384880,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 20:03:18 UTC,1,"","","","","","",2,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+   System.out.print(""Enter the first: "");
+   int first = input.nextInt();
+System.out.print(""Enter the second: "");
+int second = input.nextInt();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+System.out.println(name + "", the product is "" + (first * second));
+input.close();
+}",0.0,"","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",9,2.0,5,0,11.0
+Andy Liu,1315231,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 20:03:15 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,11,2.0,"","","","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  // TODO: Your code below this line
+System.out.print(""Enter the first: "");
+int first = input.nextInt();
+System.out.print(""Enter the second: "");
+int second = input.nextInt();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+System.out.println(name + "", the difference is "" + (first - second));
+input.close();
+}",0.0,"","","","","","",5,0,11.0
+Rohan Suggala,978143,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:56:34 UTC,1,"","","public void println(String x),public String nextLine()",0.0,"","","","","","","","","","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+   System.out.print(""Hi, Welcome!! Enter the first number: "");
+        int firstNumber = input.nextInt();
+System.out.print(""Now please enter the second number: "");
+        int secondNumber = input.nextInt();
+System.out.print(""Please enter your name: "");
+        String name = input.nextLine();
+int difference = firstNumber - secondNumber;
+ System.out.println(name + "", the difference is "" + difference);
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,9,2.0,4,1,9.0
+Morgan DeSantis,1025671,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:53:01 UTC,1,"","","","","","",2,2.0,"","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+System.out.print(""first number:"");
+int firstNumber = input.nextInt();
+System.out.print(""second number:"");
+int secondNumber = input.nextInt();
+input.nextLine();
+System.out.print(""name: "");
+String name = input.nextLine();
+int sum = firstNumber + secondNumber;
+System.out.println(name + "" the sum is "" + sum);
+
+input.close();
+}",0.0,"public static int max(int a\, int b),public void println(String x)",0.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Willow Zheng,1368371,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:52:31 UTC,1,"","","","","","","","","","",10,2.0,"","","public static int max(int a\, int b)",1.0,"","",4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+int FN;
+int SN;
+int sub;
+
+FN = input.nextInt();
+SN = input.nextInt();
+
+sub = FN - SN;
+
+System.out.println(""Enter the first: "" + FN);
+System.out.println(""Enter the second: "" + SN);
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+System.out.println(name + "", the difference is "" + sub);
+
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,10.0
+Adriana Pacheco,1008057,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:51:11 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","","","","","public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+
+  System.out.print(""Enter the first: "");
+String first = input.nextLine();
+
+System.out.print(""Enter the second: "");
+String second = input.nextLine();
+
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+int first = Integer.parseInt(first);
+int second = Integer.parseInt(second);
+
+int sum = first + second;
+
+System.out.print(name + "", the sum is "" + sum);
+input.close();
+}",0.0,"public static void main(String[] args),public static int max(int a\, int b)",0.0,"","","","","","","","",3,2.0,9,2.0,4,1,9.0
+Hanyu Diao,943102,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:50:13 UTC,1,"","","","","","","","","","",10,2.0,"","","public String nextLine(),public static int max(int a\, int b)",2.0,"","",4,2.0,"import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+
+         Scanner input = new Scanner(System.in);
+       
+         System.out.print(""Enter the first: "");
+         int number1 = input.nextInt();
+
+         System.out.print(""Enter the second: "");
+         int number2 = input.nextInt(); 
+
+         System.out.print(""Enter your name: "");
+         String name = input.nextLine();
+
+         System.out.println( name + "", the difference is "" + (number1 - number2));
+         
+         input.close();
+       
+    }
+
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Panayiotis Glaros,958034,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:50:06 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",2,2.0,"","",10,2.0,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+         
+ System.out.print(""Enter the first: "");
+          int num1 = sc.nextInt();
+            System.out.print(""Enter the second: "");
+            int num2 = sc.nextInt();
+System.out.print(“Enter your name: “);
+String name = input.nextLine();
+            System.out.println(name + “, the difference is” + (num1 - num2));
+
+input.close();
+}",0.0,"","","","","","",4,1,9.0
+Mercy Kumolu,915613,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:49:13 UTC,1,"","",public void println(String x),1.0,"","","","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       
+       System.out.print(""Enter the first: "");
+       int firstNum = input.nextInt();
+       
+       System.out.print(""Enter the second: "");
+       int secondNum = input.nextInt(); 
+       
+       System.out.print(""Enter your name: "");
+       int Name = input.nextInt();
+       System.out.print(""Name"");
+       System.out.print(""the product is"");
+       System.out.print(firstNum * secondNum);
+
+input.close();",0.0,"","","","","","","","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer hardware that executes instructions,virtual machine=>program that runs on a virtual machine,processor=>computer program that executes byte code",2.0,"","",9,2.0,5,0,7.0
+Ronald Yeboah,922838,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:48:05 UTC,1,"","","","","","","","","","",10,2.0,"","","public void println(String x),public static void main(String[] args)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,1,0.0,"import java.util.Scanner;
+
+class Main {
+
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+    Scanner keyboard = new Scanner(System.in);
+    System.out.println(""Enter the first: "");
+    int numOne = keyboard.nextInt();
+    System.out.println(""Enter the second: "");
+    int numTwo = keyboard.nextInt();
+    System.out.println(""Enter your name: "");
+    input.nextLine();
+
+    input.close();",0.0,"","","","","","",3,2,7.0
+Xiansheng Dou,1373516,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:48:39 UTC,1,"","","public void println(String x),public String nextLine(),public static void main(String[] args),public static int max(int a\, int b)",0.0,"","","","","import java.util.Scanner;
+public class Main {
+ 
+
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+
+// TODO: Your code below this line
+    int a;
+    int b;
+    String c;
+    System.out.println(""Enter the first: "");
+    a = input.nextInt();
+    System.out.println(""Enter the second: "");
+    b = input.nextInt();
+    System.out.println(""Enter your name: "");
+    c = input.next();
+    System.out.println( c + "", the product is "" + a * b); 
+input.close();
+}
+
+}",0.0,10,2.0,"","","","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer program that executes byte code,virtual machine=>computer hardware that executes instructions,processor=>program that runs on a virtual machine",2.0,3,2.0,"","",4,1,6.0
+Mustafa Al Bulushi,1422051,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:48:41 UTC,1,"","","","","","","","","import java.util.Scanner; 
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print(""Enter the first: "");
+        String myNumber1 = keyboard.nextLine();
+        int value1 = Integer.parseInt(myNumber1);
+        
+       
+        System.out.print(""Enter the second: "");
+        String myNumber2 = keyboard.nextLine();
+        int value2 = Integer.parseInt(myNumber2);
+        
+        System.out.print(""Enter your name: "");
+        String myName = keyboard.nextLine();
+        
+        int value3 = value1*value2;
+        
+        System.out.println(myName + "", "" + ""the product is "" + value3 );
+      
+        keyboard.close();
+       
+    }",0.0,"","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,9,2.0,5,0,11.0
+Dianna Desir,967492,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:48:39 UTC,1,"","","","","","","","","","",10,2.0,"// This code should output sentences with easy arithmetics with input from the user//
+
+public static void main(String[] args) {
+   
+   Scanner input = new Scanner(System.in);    
+   
+   int firstAge;
+   int secondAge;
+   int sum;
+   char userName;
+   
+   firstAge = scnr.nextInt();
+   secondAge = scnr.nextInt();
+   userName = scnr.nextInt();
+   sum = firstAge+secondAge;
+   
+
+   System.out.print(""Enter the first: "");
+   System.out.println(firstAge);
+   System.out.print(""Enter the second: ""); 
+   System.out.println(secondAge);
+   System.out.print(""Enter your name: "");
+   System.out.println(userName);
+   System.out.print(userName);
+   System.out.print("", the sum is "");
+   System.out.println(sum);
+  
+   input.close();
+}
+
+ ",0.0,"public void println(String x),public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,2,0.0,"","",3,2,7.0
+Vineeth Dondapati,1371568,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:48:16 UTC,1,"","","","",11,2.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+int firstNum = 0; //variable 'firstNum' of integer type to store the first number entered by user
+int secondNum = 0; //variable 'secondNUm' of integer type to store the first number entered by user
+String name; //variable 'name' of String type to store the name entered by user
+
+System.out.print(""Enter the first: "");
+firstNum = input.nextInt(); //getting the first entered number from user
+   System.out.print(""Enter the second: "");
+secondNum = input.nextInt(); //getting the second entered number from user
+   System.out.print(""Enter your name: "");
+
+input.nextLine(); //clearing input stream after the user enters secondNum and presses ""Enter"" to get rid of ""/n""
+name = input.nextLine(); //getting the name entered by user
+
+System.out.println(name + "", the sum is "" + (firstNum + secondNum)); //Printing user name, followed by ',' and resulting the addition of two numbers entered
+input.close(); //closing input stream
+}",0.0,"public static void main(String[] args),public static int max(int a\, int b)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",4,1,9.0
+Saif Saimun,1018560,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:48:08 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"","",10,2.0,"import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println(""Enter the first: "");
+        String num1 = input.nextLine();
+        int numA = Integer.parseInt(num1);
+        System.out.println(""Enter the second: "");
+        String num2 = input.nextLine();
+        int numB = Integer.parseInt(num2);
+        System.out.println(""Enter your name: "");
+        String name = input.nextLine();
+        System.out.println(name + "","" + ""the sum is "" + (numA + numB));
+    input.close();
+    }
+}",0.0,"","","","","","","","","","","","","","",5,0,11.0
+Simon Xiao,1373701,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:48:04 UTC,1,"","","","","","",2,2.0,"//import java.util.Scanner is typed above
+   public static void main (String [] args) {
+   Scanner numbers = new Scanner(System.in);
+   System.out.print(""Enter the first "");
+   int num1 = numbers.nextInt();
+   System.out.print(""Enter the second "");
+   int num2 = numbers.nextInt();
+   System.out.print(""Enter your name: "";
+   String name = numbers.next();
+   System.out.print(name + "", the product is "" + num1*num2);
+   
+   }
+}",0.0,10,2.0,"","","public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Maazin Shamim,1388923,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:47:54 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"import java.util.Scanner;
+public class Main {
+   
+   public static void main(String[] args) {
+   
+         Scanner input = new Scanner(System.in);
+          
+         int numOne;
+         int numTwo;
+         String userName;
+          
+         System.out.print(""Enter the first: "");
+         numOne = Integer.parseInt(input.nextLine());
+            
+         System.out.print(""Enter the second: "");
+         numTwo = Integer.parseInt(input.nextLine());
+            
+         System.out.print(""Enter your name: "");
+         userName = input.nextLine();
+         
+         System.out.print(userName + "", the product is "" + (numOne * numTwo));
+      
+         input.close();
+}
+
+}",0.0,"","","","","","","","","","","","","","","","",9,2.0,5,0,11.0
+Wenyi Shi,1279216,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:41 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x)",2.0,"","","","","","",10,2.0,"","","","","","",4,2.0,"import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print(""Enter the first: "");
+        int firstNumber = input.nextInt();
+
+        System.out.print(""Enter the second: "");
+        int secondNumber = input.nextInt();
+
+        // Consume the newline character
+        input.nextLine();
+
+        System.out.print(""Enter your name: "");
+        String name = input.nextLine();
+
+        int difference = firstNumber - secondNumber;
+
+        System.out.println(name + "", the difference is "" + difference);
+
+        input.close();
+    }
+}",0.0,"","","","","","",5,0,11.0
+Linzhuoran Sun,1419824,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:11 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>computer hardware that executes instructions,virtual machine=>computer program that executes byte code,processor=>a Java class that is used to read input",3.0,"public static void main(String[] args),public static int max(int a\, int b)",0.0,"","",2,2.0,"System.out.print(“Enter the first: “);
+
+int firstNum = input.nextInt();
+
+System.out.print(“Enter the second: “);
+
+int secondNum = input.nextInt();
+
+System.out.print(“Enter your name: “);
+
+String yourName = input.nextLine();
+
+Product = firstNum * secondNum;
+
+System.out.println(yourName + “, the product is “ + Product);",0.0,"","","","","","","","","","","","","","","","",9,2.0,4,1,7.0
+Mary Grace Rinehart,1040886,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:35 UTC,1,"","","","",11,2.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+   System.out.print(""Enter the first: "");
+    String first = input.nextLine();
+    int a = Integer.parseInt(first);
+    System.out.print(""Enter the second: "");
+   String second = input.nextLine(); 
+   int b = Integer.parseInt(second);
+   System.out.print(""Enter your name: "");
+   String name = input.nextLine();
+   int sum = a + b;
+   System.out.print(name + "", the sum is "" + sum);
+
+input.close();
+}",0.0,"public static int max(int a\, int b),public String nextLine()",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","","","",5,0,11.0
+Yihan Jiang,1429531,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:47:28 UTC,1,"","","public static int max(int a\, int b),public void println(String x)",0.0,"","",2,2.0,"","",10,2.0,"public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        System.out.print(""Enter your first: "");
+        int first = input.nextInt();
+        System.out.print(""Enter Enter the second: "");
+        int second = input.nextInt();
+      System.out.print(""Enter your name: "");
+      
+      String name = input.nextLine();
+      int a = 12;
+      int b = 3;
+      int c = a + b ;
+      System.out.println( name +"", the sum is ""+ c);
+       input.close();
+    }
+
+}",0.0,"","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer program that executes byte code,virtual machine=>program that runs on a virtual machine,processor=>computer hardware that executes instructions",3.0,"","","","",4,1,7.0
+Trish Pham,1390362,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:19 UTC,1,"","","","","","","","","import java.util.Scanner;
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+  String numOne = input.nextLine();
+  int first = Integer.parseInt(numOne);
+ System.out.print(""Enter the second: "");
+  String numTwo = input.nextLine();
+  int second = Integer.parseInt(numTwo);
+  System.out.print(""Enter your name: "");
+   String name = input.nextLine();
+    int product = first * second;
+  System.out.println(name + "", the product is "" + product);
+
+input.close();
+}",0.0,10,2.0,"","","public static void main(String[] args),public static int max(int a\, int b)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","","","",4,1,9.0
+Jingchao Cai,1421828,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:04 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public String nextLine()",0.0,11,2.0,"","","","","","","","","","","","","","","import java.util.Scanner;
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+System.out.print(""Enter the first: "");
+int firstNumber = input.nextInt();
+
+System.out.print(""Enter the second: "");
+int secondNumber = input.nextInt();
+
+System.out.print(""Enter your name: "");
+
+String name = input.nextLine();
+
+int difference = firstNumber - secondNumber;
+
+System.out.println(name + "", the difference is "" + difference);
+
+input.close();
+
+}",0.0,"","",3,2.0,"","",4,1,9.0
+Jianbai Wu,1039336,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:47:09 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+int a = input.nextInt();
+System.out.print(""Enter the second: "");
+int b = input.nextInt();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+name = input.nextLine();
+input.close();
+   System.out.println(name + "", "" + ""the sum is "" + (a+b));
+
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","","","",5,0,11.0
+Yousuf Munir,910881,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:47:09 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","",10,2.0,"import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       // TODO: Your code here
+        
+       Scanner scnr = new Scanner(System.in);
+       
+       System.out.print(""Enter the first: "");
+       int first = scnr.nextInt();
+       // Obtain first input
+       
+       System.out.print(""Enter the second: "");
+       int second = scnr.nextInt();
+       // Obtain second input
+       
+       System.out.print(""Enter your name: "");
+       String Name;
+       Name = scnr.nextLine();
+       
+     System.out.println(Name + ""the sum is"" + (first + second));
+       
+       scnr.close();
+    }
+
+}",0.0,"","","","",1,0.0,"","","Java/C++/etc=>computer program that executes byte code,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",4.0,"","","","",4,1,8.0
+Zhidan Xue,1277550,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:47:02 UTC,1,"","","","",11,2.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+int a = input.nextInt();
+   System.out.print(""Enter the second: "");
+int b = input.nextInt();
+   System.out.print(""Enter your name: "");
+String name = input.nextLine();
+   name = input.nextLine();
+System.out.println(name+"","" + ""the sum is"" + (a+b));
+input.close();
+}",0.0,"public static int max(int a\, int b),public String nextLine()",2.0,"","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer hardware that executes instructions,processor=>computer program that executes byte code",3.0,"","","","",5,0,9.0
+Adithi Teligi Harapanahalli Math,969090,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:47:01 UTC,1,"","","","",11,2.0,"","","import java.util.Scanner;
+
+public class Main {
+   
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      int firstNum;
+      int secondNum;
+      
+      int answer;
+      
+        System.out.print(""Enter the first: "");
+        firstNum = input.nextInt();
+        System.out.print(""Enter the second: "");
+        secondNum = input.nextInt();
+        System.out.print(""Enter your name: "");
+        input.nextLine();
+        String name = input.nextLine();
+        answer = firstNum * secondNum;
+        System.out.println(name + "", the product is "" + answer);
+        
+      
+      input.close();
+}
+
+}",0.0,"","","","","public String nextLine(),public static int max(int a\, int b)",2.0,"","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>translates source code into machine code,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",4.0,"","","","",5,0,10.0
+Anuj Ketkar,1390652,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:47:00 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public static int max(int a\, int b)",0.0,"","","","","","","","","","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+   System.out.println(""Enter the first: "");
+    int num1 = input.nextInt();
+    System.out.println(""Enter the Second: "");
+    int num2 = input.nextInt();
+    input.nextLine();
+    System.out.println(""Enter your name: "");
+    String firstLast = input.nextLine();
+    int x = num1 - num2;
+  System.out.println(firstLast + "", "" + ""the difference is "" + x);
+input.close();
+}",0.0,"","",3,2.0,9,2.0,4,1,9.0
+Shueyb Osman,1389076,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:46:51 UTC,1,"","","","","","","","","","",10,2.0,"public static void main(String[] args) {
+string = name;
+int num1;
+   int num2;
+Scanner input = new Scanner(System.in);
+  System.out.println(""Enter the first: "")
+num1 = scnr.nextInt();
+   System.out.println(""Enter the second: "")
+   num1 = scnr.nextInt();
+   System.out.println(""Enter your name: "")
+name = scnr.nextLine();
+sum = num1+num2
+system.out.println( name +"",""+ "" the sum is""+sum)
+
+input.close();
+}",0.0,"public String nextLine(),public void println(String x)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",4,1,9.0
+Evan Barnett,1355294,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:46:46 UTC,1,"","","","",11,2.0,"","","public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+      
+      Scanner in = newScanner(System.in);
+      System.out.print(""Input first number: 3 "");
+      int num1 = in.nextln();
+      System.out.print(""Input second number: 10 "");
+      int num2 = in.nextln();
+      System.out.println(num1 * num2);
+    input.close();
+}",0.0,"","","","",public static void main(String[] args),0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",4,0.0,"","",3,2,7.0
+Dylan Schrad,1390456,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:46:37 UTC,1,"","","public void println(String x),public String nextLine()",0.0,11,2.0,2,2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+String first = input.nextLine();
+int valueFirst = Integer.parseInt(first);
+   System.out.print(""Enter the second: "");
+String second = input.nextLine();
+int valueSecond = Integer.parseInt(second);
+System.out.print(""Enter your name: "");
+String myName = input.nextLine();
+System.out.println(myName + "", the sum is "" + (valueFirst + valueSecond));
+input.close();
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Hannah Dodley,776801,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:46:26 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,public void println(String x),1.0,"","",2,2.0,"import java.util.Scanner;
+
+public class ClosedLab01c {
+   public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in);
+   
+    System.out.print(""Enter the first number "");
+    String number = keyboard.nextLine();
+    int a = Integer.parseInt(number);
+    
+    System.out.print(""Enter the second number "");
+    String bStr = keyboard.nextLine();
+    int b = Integer.parseInt(bStr);
+  int c = a * b;
+ 
+   System.out.print(""Enter your name "");
+   String name = keyboard.nextLine();
+  
+   System.out.println(name + "", the product is "" + c + ""."" );",0.0,"","","","","","","","","","","","","","","","",9,2.0,5,0,10.0
+Ethan Frantz,978288,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:46:25 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+      String first_name;
+      System.out.print(""Barry Allen"");
+      
+      System.out.print(""Input first number"");
+      int num1 = in.nextInt(10)
+      
+      System.out.print(""Input second number"")
+      int num2 = in.nextInt(3)
+      
+      System.out.println(num1 + "" x "" + num2 + "" = "" + num1 * num2);
+      
+    input.close();
+}",0.0,"","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","",9,2.0,4,1,9.0
+Chongyi Hu,1280191,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:46:17 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x)",2.0,"","","","","","",10,2.0,"","","","","","",4,2.0,"import java.util.Scanner;
+
+public class Math {
+  public static void main(String[] args) {
+
+  Scanner input = new Scanner(System.in);
+
+    // Prompt user for the first number
+    System.out.print(""Enter the first: "");
+  int firstNum = input.nextInt();
+
+    // Prompt user for the second number
+    System.out.print(""Enter the second: "");
+  int secondNum = input.nextInt();
+
+    // Prompt user for their name
+    System.out.print(""Enter your name: "");
+  input.nextLine();
+    String name = input.nextLine();
+
+  int difference = firstNum - secondNum;
+
+    System.out.println(name + "", the difference is "" + difference);
+
+    input.close();
+}
+
+ ",0.0,"","","","","","",5,0,11.0
+Gino DiCarlo,1379049,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:46:15 UTC,1,"","","","",11,2.0,2,2.0,"","","","","import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    //Im setting up two integers and a string that will later store the data of the two numbers and name the user inputs
+    
+    int numOne;
+    int numTwo;
+    String userName;
+    
+    //These six lines gather date from the user on the first number, second number and their name using the scanner
+    System.out.println(""Enter the first: "");
+    numOne = input.nextInt();
+    System.out.println(""Enter the second: "");
+    numTwo = input.nextInt();
+    userName = input.nextLine();
+    System.out.println(""What is your name?: "");
+    userName = input.nextLine();
+    
+  //Finally the code will output the inputted name and the sum of their two inputted numbers
+    System.out.println(userName + "", the sum is "" + (numOne+numTwo));
+    
+    
+    
+    
+
+    input.close();
+}
+}",0.0,"public String nextLine(),public static int max(int a\, int b)",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",5,0,11.0
+Nick Gage,1366477,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:46:14 UTC,1,"","","","","","",2,2.0,"","","","","public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+    System.out.print(""Enter a number: "");
+    String number = input.nextLine();
+    int a = Integer.parseInt(number);
+    System.out.print(""Enter another number: "");
+    number = input.nextLine();
+    int b = Integer.parseInt(number);
+    int max = Math.max(a, b);
+    System.out.print(""Please enter your name: "");
+    String name = input.nextLine();
+    System.out.println(name + "", the sum is "" + max);
+    input.close();
+}
+
+I was trying to follow the notes but every time I tried to run it there were errors and I don't know why because I followed the notes that were on Carmen.",0.0,"public static int max(int a\, int b),public String nextLine()",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,5,0,11.0
+Brandon Gualpa-Pillacela,1379428,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:45:59 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","",""," 
+
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+String name = input.nextLine();  
+System.output.print(""the product is"")
+    input.close();
+}",0.0,"","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,3,0.0,"","","","","","",9,2.0,4,1,9.0
+Jason Aurigemma,1026337,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:45:59 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","public class Main {
+
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int first;
+    int second;
+    String name;
+    System.out.println(""Enter the first: "");
+    first = input.nextInt;
+    System.out.println(""Enter the second: "");
+    second = input.nextInt;
+    System.out.println(""Enter your name: "");
+    name = input.nextLine;
+    System.out.println(name + "", the difference is "" + (first - second));
+    input.close();
+    }
+
+}",0.0,"","","","",9,2.0,5,0,11.0
+Rachel Wu,1297929,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:45:46 UTC,1,"","","","","","","","","","",10,2.0,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","",4,2.0,"",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Lindsay Ruskin,1361161,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:45:54 UTC,1,"","","","",11,2.0,"","","","","","","import java.util.Scanner;
+
+public class Main{
+   
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      int firstNumber; 
+      int secondNumber; 
+      String str = ""theName"";
+     
+     
+      System.out.print(""Enter the first: "");
+      firstNumber = input.nextInt();
+      
+      System.out.print(""Enter the second: "");
+      secondNumber = input.nextInt();
+      
+      System.out.print(""Enter your name: "");
+      theName = input.nextLine();
+      
+      System.out.println(""theName"" + ""the sum is "" + (firstNumber + secondNumber));
+      
+      input.close();
+    }",0.0,"public static void main(String[] args),public String nextLine()",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,5,0.0,"","","","","","","","",3,2,7.0
+Zhuotong Meng,1293271,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:45:51 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,"","","","","","",10,2.0,"","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+ 
+System.out.print(""Enter the first number: "");
+int firstNumber = input.nextInt();
+
+System.out.print(""Enter the second number: "");
+int secondNumber = input.nextInt();
+
+input.nextLine();
+
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+int difference = firstNumber - secondNumber;
+
+System.out.println(name + "", the difference is "" + difference);
+
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,"","",5,0,11.0
+Dylan Sofish,887681,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:45:47 UTC,1,"","","","","","",2,2.0,"","","","","","","public String nextLine(),public static int max(int a\, int b)",2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  // TODO: Your code below this line
+
+System.out.print(""Enter the first: "");
+    int a = Integer.parseInt(input.nextLine());
+
+    System.out.print(""Enter the second: "");
+    int b = Integer.parseInt(input.nextLine());
+
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+
+    int difference = a - b;
+
+    System.out.println(name + "", the difference is "" + difference); 
+    
+    input.close();
+
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer hardware that executes instructions,virtual machine=>computer program that executes byte code,processor=>program that runs on a virtual machine",3.0,"","",9,2.0,5,0,9.0
+Baylon Watts,738053,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:45:40 UTC,1,"","","","","","","","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       System.out.println(""Enter your first: "");
+       String number = input.nextLine();
+       int a = Integer.parseInt(number);
+       System.out.println(""Enter your second: "");
+       number = input.nextLine();
+       int b = Integer.parseInt(number);
+       int Product = Math.product(a, b);
+       System.out.println(""Enter your name: "");
+       String name = input.nextLine();
+       System.out.println(name + "" your product is: "" + a * b);
+       
+       
+       input.close();
+    }
+
+}",0.0,"","","","","public static int max(int a\, int b),public void println(String x),public static void main(String[] args)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","",9,2.0,4,1,9.0
+Quinn Santucci,1434098,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:45:30 UTC,1,"","",public static void main(String[] args),1.0,11,2.0,2,2.0,"","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       Scanner scnr = new Scanner(System.in);
+       System.out.print(""Enter the first: "");
+       int first = scnr.nextInt();
+       System.out.print(""Enter the second: "");
+       int sec = scnr.nextInt();
+       System.out.print(""Enter your name: "");
+       String name = scnr.nextLine();
+       int diff; 
+       diff = sec - first;
+       System.out.println(name + "", the difference is "" + diff);
+       scnr.close();
+       
+    }
+
+}",0.0,"","","","","","",5,0,10.0
+Sparsha Yogish,1360709,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:45:25 UTC,1,"","","","","","","","","","",10,2.0,"","",public static void main(String[] args),0.0,"","","","","import java.util.Scanner;
+
+public class Main {
+   
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+   
+       
+        int numberOne;
+        int numberTwo;
+         
+        System.out.print(""Enter the first: "");
+        numberOne = input.nextInt();
+        System.out.print(""Enter the second: "");
+        numberTwo = input.nextInt();
+        
+        
+        System.out.print(""Enter your name: "");
+        String yourName = input.nextLine();
+
+        int result = numberOne - numberTwo;
+        System.out.print(yourName + "", the difference is "" + result);
+        
+    }
+}",0.0,"Java/C++/etc=>program that runs on a virtual machine,compiler=>translates source code into machine code,byte code=>high level programming languages,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",3.0,3,2.0,"","",4,1,7.0
+Connor Shoenleben,1312628,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:45:16 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","",10,2.0,"import java.util.Scanner;
+
+public class Main { 
+ public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+      int userNumOne;
+      int userNumTwo;
+      String userName; 
+
+ // TODO: Your code below this line
+ System.out.print(""Enter the first number: "" ) ; 
+       userNumOne = scnr.nextInt();
+ System.out.println(userNumOne);
+
+    sncr.nextLine(); 
+ 
+  System.out.print(""Enter the second number: "") ;
+        userNumTwo = scnr.nextInt();
+  System.out.println(userNumTwo);
+
+    sncr.nextLine();
+
+ System.out.print(""Enter your name: ""); 
+         userName = scnr.nextLine();    
+ System.out.println(userName);
+
+     int solution = userNumOne + userNumTwo ; 
+
+System.out.println(username + "", the sum is "" + solution);
+ 
+            input.close();
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","","","",5,0,11.0
+Samira Mohamed,1438595,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:45:14 UTC,1,"","","public void println(String x),public String nextLine(),public static void main(String[] args)",1.0,"","",2,2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+// ask user to enter the first number
+System.out.print(""Enter the first: "");
+int firstNumber = input.nextInt();
+
+// ask user to enter the second number
+System.out.print(""Enter the second: "");
+int secondNumber = input.nextInt();
+
+input.nextLine();
+
+// ask user to enter their name
+
+ System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+// Calculate the sum 
+int sum = firstNumber + secondNumber;
+
+// Display the result with a message
+    System.out.println(name + "", the sum is "" + sum);
+
+input.close();
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,5,0,10.0
+Riya Salian,1409146,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:45:08 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","public static void main(String[] args) {
+
+  Scanner input = new Scanner(System.in);
+   System.out.print(""Enter the first: "");
+        String firstNumber = input.nextLine();
+        System.out.print(""Enter the second: "");
+        String secondNumber = input.nextLine();
+        System.out.print(""Enter your name: "");
+        String name = input.nextLine();
+        int value1 = Integer.parseInt(firstNumber);
+        int value2 = Integer.parseInt(secondNumber);
+        System.out.println(name+"", the product is ""+(value1*value2));
+      
+    input.close();
+}",0.0,10,2.0,"","","","","","",4,2.0,"","","","","","","","",4,1,9.0
+Anish Indukuri,755243,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:44:59 UTC,1,"","","","","","","","","","","","","","","public static void main(String[] args),public void println(String x),public static int max(int a\, int b),public String nextLine()",0.0,"","",4,2.0,"/**
+ * Week 2 Quiz Code 
+ * @author Anish Indukuri
+ * @version 20230901
+ **/
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+     // displays prompt and waits for user input then saves the input value as an int for both numbers and name as a string //
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print(""Enter the first: "");
+        String num1 = keyboard.nextLine();
+        int val1 = Integer.parseInt(num1);
+        System.out.print(""Enter the second: "");
+        String num2 = keyboard.nextLine();
+        int val2 = Integer.parseInt(num2);
+        int valDiff = val1 - val2;
+        System.out.print(""Enter your name: "");
+        String name = keyboard.nextLine();
+        
+        // takes saved integers and strings and displays them along with the correlated expression that was done //
+        System.out.println(name + "", the difference is "" + valDiff );
+        
+        keyboard.close();
+    }
+    
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",9,2.0,4,1,9.0
+Christopher Russell,1039741,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:44:45 UTC,1,"","","public void println(String x),public String nextLine()",0.0,"","",2,2.0,"public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+   int numOne;
+   int numTwo;
+   int numName;
+
+   System.out.print(""Enter the first: "");
+   numOne = scnr.nextInt();
+   System.out.print(""Enter the second: "");
+   numTwo = scnr.nextInt();
+   System.out.print(""Enter your name: "");
+   numName = scnr.nextInt();
+   System.out.print(numName);
+   System.out.println("", the product is "");
+   System.out.println(numOne * numTwo);
+
+input.close();
+}",0.0,"","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,4,1,9.0
+Alejandro HernandezRodriguez,1324701,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:44:34 UTC,1,"","","","","","","","","import java.util.Scanner;
+public class Main {
+//name: Alejandro Hernandez
+//date: sep 1 2023
+
+    public static void main(String[] args) {
+     
+       Scanner input = new Scanner(System.in);
+   // ask user to enter first then let user input number
+    
+    System.out.print(""Enter the first: "" );
+ String first = input.nextLine();
+ System.out.print (first);
+// ask user to enter second then let user input number
+System.out.print(""Enter the second: "");
+String second = input.nextLine();
+System.out.print(second);
+// ask user to enter name
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+System.out.print(name);
+// show name and product
+System.out.print(name + "" The product is "" );
+// in this part I tried to convert the strings typed to integers but was unsuccesfull at doing so
+Integer.valueOf(first);
+Integer.valueOf(second);
+System.out.print(first*second);
+
+   
+    }
+    
+
+}",0.0,"","","","","public static int max(int a\, int b),public void println(String x),public static void main(String[] args),public String nextLine()",0.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,9,2.0,4,1,9.0
+Su Liu,900044,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:44:14 UTC,1,"","","","",11,2.0,"","","","","","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","",4,2.0,"import java.util.Scanner;
+public class Main{
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
+    System.out.print(""Enter the first: "");
+    int firstNumber = input.nextInt();
+
+    System.out.print(""Enter the second: "");
+    int secondNumber = input.nextInt();
+
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+
+    int difference = firstNumber - secondNumber;
+
+    System.out.println(name + "", the difference is "" + difference);
+
+    input.close();
+}
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Connor Panker,1038823,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:43:20 UTC,1,"","","","","","","","","","","","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print(""Enter the first: "");
+        int numberOne = input.nextInt();
+
+        System.out.print(""Enter the second: "");
+        int numberTwo = input.nextInt();
+
+        input.nextLine();
+
+        System.out.print(""Enter your name: "");
+        String userName = input.nextLine();
+
+        int numberSum = numberOne + numberTwo;
+
+        System.out.println(userName + "", the sum is "" + numberSum);
+
+        input.close();
+    }
+}",0.0,"public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer hardware that executes instructions,processor=>computer program that executes byte code",3.0,3,2.0,9,2.0,4,1,7.0
+Abigail Bardwell,1042655,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:43:02 UTC,1,"","","public String nextLine(),public static int max(int a\, int b)",0.0,11,2.0,2,2.0,"","","","","","","","","","","","","public static void main(String[] args) {
+
+Scanner scnr = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+int firstNumber = scnr.nextInt();
+
+System.out.print(""Enter the second: "");
+int secondNumber = scnr.nextInt();
+
+System.out.print(""Enter your name: "");
+String userName = scnr.next();
+
+int difference = firstNumber - secondNumber;
+
+System.out.println(userName + "","" + "" the difference is "" + difference);
+
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Abhi Kuram,907785,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:42:43 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x)",2.0,"","","","","","","","","import java.util.Scanner;
+public class Main{
+   public static void main(String[] args){
+      Scanner input = new Scanner(System.in);
+      System.out.print(""Enter the first number: "");
+      String numa = input.nextLine();
+      int a = Integer.parseInt(numa);
+      System.out.print(""Enter the second number: "");
+      String numb = input.nextLine();
+      int b = Integer.parseInt(numb);
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+      System.out.println(name + "", the sum is: "" + (a+b));
+   }
+}",0.0,"","","","","","","","","","",3,2.0,9,2.0,5,0,11.0
+Kameron Johnson,1376473,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:42:35 UTC,1,"","","","","","","","","public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Prompt the user for the first number
+        System.out.print(""Enter the first: "");
+        double num1 = input.nextDouble();
+
+        // Prompt the user for the second number
+        System.out.print(""Enter the second: "");
+        double num2 = input.nextDouble();
+
+        // Prompt the user for their name
+        System.out.print(""Enter your name: "");
+        String userString = input.next();
+
+        // Calculate the product of the two numbers
+        double product = num1 * num2;
+
+        // Display the result with a message to the user
+        System.out.println(userString + "", the product is "" + product);
+
+        // Close the Scanner
+        input.close();
+    }
+}",0.0,10,2.0,"","","public static int max(int a\, int b),public String nextLine(),public static void main(String[] args)",1.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",5,0,10.0
+Lauren Gale,1408680,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:42:24 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,11,2.0,2,2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+   int firstNum;
+    int secondNum;
+    int userName;
+      
+    System.out.print(""Enter your first number: "");
+    firstNum = scnr.nextInt();
+    System.out.print(""Enter your second number: "");
+    secondNum = scnr.nextInt();
+    System.out.print(""Enter your name: "");
+    userName = scnr.nextInt();
+    System.out.println( userName + "", "" + "" the sum is "" + (firstNum + secondNum); 
+      
+
+input.close();
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Kaitlynn Keomanivong,1381268,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:42:20 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x),public String nextLine()",1.0,"","","","","","","","","","","","","","","","","import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    
+    //Enter Numbers
+    System.out.print(""Enter the first: "");
+    int first = input.nextInt();
+    
+    System.out.print(""Enter the second: "");
+    int second = input.nextInt();
+    
+    //Enter name
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+    
+    //Final output 
+    System.out.println( name + "", "" + ""the difference is "" + (first - second));
+    
+    
+       
+    }
+
+}",0.0,"","",3,2.0,9,2.0,5,0,10.0
+Shiyan Gao,1446173,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:42:19 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","",2,2.0,"","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+num1 = scnr.nextInt(); 
+num2 = scnr.nextInt();
+
+System.out.println(""Enter the first: "" + num1);
+System.out.println(""Enter the second: "" + num2);
+   
+String name = input.nextLine();
+System.out.println(""Enter your name: "" + name);
+
+numSum = num1 + num2;
+System.out.println(name + "", the sum is "" + numSum);
+input.close();
+}",0.0,"","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>computer program that executes byte code,byte code=>program that runs on a virtual machine,virtual machine=>computer hardware that executes instructions,processor=>translates source code into machine code",2.0,"","","","",4,1,6.0
+Reuben Varughese,1411117,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:42:10 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,"","",2,2.0,"import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+
+      Scanner input = new Scanner(System.in);
+       // TODO: Your code below this line
+   
+      int numFirst;
+      int numSecond;
+      String nameUser;
+      String temp1;
+   
+      System.out.print(""Enter the first: "");
+      numFirst = input.nextInt();
+      System.out.print(""Enter the second: "");
+      numSecond = input.nextInt();
+      System.out.print(""Enter your name: "");
+      temp1 = input.nextLine();
+      nameUser = input.nextLine();
+      
+      System.out.print(nameUser + "", the product is "" + (numFirst * numSecond));
+   
+      input.close();
+   }
+
+}",0.0,"","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,5,0,11.0
+Sarah Schwartze,1411336,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:42:09 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,11,2.0,3,0.0,"","","","","public class Main {
+
+    public static void main(String[] args) {
+       // TODO: Your code here
+       Scanner input= new Scanner(System.in);
+       
+       //Enter numbers
+       System.out.println(""Enter the first: "");
+       int first = input.nextInt();
+       
+       System.out.println(""Enter the second: "");
+       int second = input.nextInt();
+       
+       //Enter name
+       System.out.println(""Enter your name: "");
+       int name = input.nextInt ();
+       ",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Beaks Beeks,1434046,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:42:05 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,11,2.0,2,2.0,"","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+      int firstNumber;
+      int secondNumber;
+      int difNumber;
+
+      Scanner scnr = new Scanner(System.in);
+      System.out.print(""Enter your first number: "");
+      firstNumber = scnr.nextInt();
+      System.out.print(""Enter your second number: "");
+      secondNumber = scnr.nextInt();
+      System.out.println(""Enter your name: "");
+      Scanner input = new Scanner(System.in);
+      String userName = input.nextLine();
+      difNumber = (firstNumber - secondNumber);
+      
+      System.out.println(userName + "","" + "" the difference is "" + difNumber);
+   }
+}",0.0,"","","","","","",4,1,9.0
+Sai Andra,715267,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:41:42 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,11,2.0,2,2.0,"","","","","import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+
+      Scanner input = new Scanner(System.in);
+      
+      System.out.print(""Enter the first: "");
+      int int1 = input.nextInt();
+      
+      System.out.print(""Enter the second: "");
+      int int2 = input.nextInt();
+      
+      System.out.print(""Enter your name: "");
+      String user_name = input.nextLine();
+      user_name = input.nextLine();
+      
+      System.out.println(user_name + "", the sum is "" + (int1+int2));
+
+      input.close();
+   }
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",5,0,11.0
+Jessica Lewis,1367338,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:41:27 UTC,1,"","","","","","",2,2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+   // TODO: Your code below this line
+
+System.out.print(""Enter the first: "");
+   int firstNumber;
+firstNumber = input.nextInt();
+
+System.out.print(""Enter the second: "");
+   int secondNumber;
+secondNumber = input.nextInt();
+ 
+System.out.print(""Enter your name: "");
+   String name;
+name = input.nextLine();
+
+int sum = firstNumber + secondNumber;
+System.out.println( name + "", "" + ""the sum is "" + sum);
+ 
+
+input.close();
+}",0.0,"public static int max(int a\, int b)",1.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,5,0,10.0
+Isaac Tan,1052494,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:41:25 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,11,2.0,"","","","","","","","","","","","","","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+     // TODO: Your code below this line
+       Scanner input = new Scanner(System.in);
+        System.out.print(""Enter the first number: "");
+        int firstNumber = input.nextInt();
+        System.out.print(""Enter the second number: "");
+        int secondNumber = input.nextInt();
+        input.nextLine();
+        System.out.print(""Enter your name :"");
+        String name = input.nextLine();
+        System.out.println(name + "", the difference is "" + (firstNumber - secondNumber));
+        input.close();
+       
+    }
+
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,"","",5,0,11.0
+Yundi Duan,1390466,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:40:54 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",2,2.0,"","",10,2.0,"","",public void println(String x),0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+int a = input.nextInt();
+System.out.print(""Enter the second: "");
+int b = input.nextInt();
+   int result = subtract(a, b);
+System.out.print(""Enter your name: "");
+System.out.println(name + ""the difference is"" + result);
+
+input.close();
+}",0.0,"","","","","","",4,1,9.0
+Jd Ojeda,242313,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:40:46 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","import java.util.Scanner;
+
+public class quiz {
+   public static void main(String[] args) {
+
+    int first;
+    int second;
+    int result;
+    String name;
+    Scanner scnr = new Scanner(System.in);
+    System.out.println(""Enter the first: "");
+    first = scnr.nextInt();
+    System.out.println(""Enter the second: "");
+    second = scnr.nextInt();
+    System.out.println(""Enter your name: "");
+    name = scnr.nextLine();
+    result = first * second;
+    System.out.println(name + "", the product is "" + result);
+
+    input.close();
+    }
+}",0.0,"","","","","","","","",4,2.0,"","","","","","",9,2.0,4,1,9.0
+Aaron Cole,1027132,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:39:09 UTC,1,"","","public static int max(int a\, int b),public void println(String x)",0.0,11,2.0,2,2.0,"import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+
+Scanner keyboard = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.print(""Enter your first: "");
+String num1 = keyboard.nextLine();
+int value1 = Integer.parseInt(num1);
+System.out.print(""Enter your second: "");
+String num2 = keyboard.nextLine();
+int value2 = Integer.parseInt(num2);
+int product = value1 *value2;
+
+System.out.print(""Enter your name: "");
+String name = keyboard.nextLine();
+System.out.println(name + "", the product is "" + product);
+
+keyboard.close();
+}
+
+}",0.0,"","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Jeslyn Ho,1049937,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:38:55 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",2,2.0,"","","","","","","public void println(String x),public String nextLine()",0.0,"","","","","import java.util.Scanner;
+
+public class Main {
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in); 
+      
+      System.out.print(""Enter the first: "");
+      int first = input.nextInt();
+      
+      System.out.print(""Enter the second: ""); 
+      int second = input.nextInt();
+      
+      input.nextLine();
+      
+      System.out.print(""Enter your name: "");
+      String userName = input.nextLine();
+      
+      int difference = first - second;
+      
+      System.out.println(userName + "", the difference is "" + difference);
+      
+      input.close();
+   }
+}",0.0,"","","","",9,2.0,4,1,9.0
+Sam Pearce,960784,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:38:41 UTC,1,"","","public static void main(String[] args),public void println(String x),public static int max(int a\, int b)",1.0,"","","","","","",10,2.0,"","","","","","",4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(“Enter the first: ”);
+String firstNumber = keyboard.nextLine;
+
+System.out.print(“Enter the second: ”);
+   String secondNumber = keyboard.nextLine;
+
+   Int 1value = Integer.parseInt(firstNumber);
+   Int 2value = Integer.parseInt(secondNumber);
+
+System.out.print(“Enter your name: ”);
+String myName = keyboard.nextLine;
+
+System.out.println(myName + “,” + “the difference is ”);
+
+input.close();",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,10.0
+Ziqing Wang,1419992,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:38:21 UTC,1,"","","","","","",2,2.0,"","",10,2.0,"","",public static void main(String[] args),0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.print(""Enter the first: "");
+String number = input.nextLine();
+int a = Integer.parseInt(number)
+System.out.println(""Enter the second: "");
+number = input.nextLine();
+int b = Integer.parseInt(number);
+int c = a - b
+System.out.println(""Enter your name: "");
+String name = input.nextLine();
+System.out.println(name + "", the difference is "" + c)
+
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer hardware that executes instructions,virtual machine=>computer program that executes byte code,processor=>program that runs on a virtual machine",3.0,"","","","",4,1,7.0
+Arthur Zheng,1378834,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:38:14 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",2,2.0,"","","","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","","","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print(""Enter the first number: "");
+        String num1 = keyboard.nextLine();
+        System.out.print(""Enter the second number: "");
+        String num2 = keyboard.nextLine();
+        System.out.print(""Enter your name: "");
+        String name = keyboard.nextLine();
+        
+        int numone = Integer.parseInt(num1);
+        int numtwo = Integer.parseInt(num2);
+        int difference = numone - numtwo;
+        
+        System.out.println(name + "", the difference is "" + difference);
+
+        keyboard.close();
+    }
+}",0.0,"","","","",9,2.0,5,0,11.0
+Emilie Valjato,1034140,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:38:10 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.println(""Enter the first:"");
+int num1 = in.nextInt();
+System.out.println(""Enter the second:"");
+int num2 = in.nextInt();
+System.out.println(""Enter your name:"");
+System.out.print(name ""+"" num1 ""+"" num2 ""="" num1*num2);
+
+input.close();
+}",0.0,"","","","","","","","","","","","","Java/C++/etc=>computer hardware that executes instructions,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>translates source code into machine code",3.0,3,2.0,7 + 2 = x + y,0.0,4,1,7.0
+Simon Lunay,1371629,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:37:48 UTC,1,"","","","","","","","","","","","","import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    System.out.print(""Enter the first: "");
+    int num1 = input.nextInt();
+    System.out.print(""Enter the second: "");
+    int num2 = input.nextInt();
+    int sum = num1 + num2;
+    System.out.print(""Enter your name: "");
+    var name = input.next();
+    System.out.print(name + "", the sum is "" + sum);
+
+    input.close(); 
+       
+    }
+
+}",0.0,"public String nextLine(),public static int max(int a\, int b)",2.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,9,2.0,5,0,11.0
+Ian Stanton,1408440,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:36:04 UTC,1,"","","","",11,2.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+// TODO: Your code below this line
+
+//prompt user for two numbers and store as num1 and num2 using Scanner
+System.out.print(""Enter the first: "");
+int num1 = input.nextInt();
+System.out.print(""Enter the second: "");
+int num2 = input.nextInt();
+
+//set cursor on next line then prompt user for name and store as name
+input.nextLine();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+//print name and product of num1 and num2
+System.out.print(name + "", the product is "" + (num1 * num2) );
+input.close();
+}
+}",0.0,"","","","","public String nextLine(),public static int max(int a\, int b)",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","","","",5,0,11.0
+Bryce Lewin,1410283,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:35:57 UTC,1,"","","","","","","","","","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.print(""Enter the first: "");
+int a = input.nextInt();
+System.out.print(""Enter the second: "");
+int b = input.nextInt();
+input.nextLine();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+System.out.print(name + "", "" + ""the sum is "" + (a + b));
+input.close();
+}",0.0,"public static int max(int a\, int b),public String nextLine()",2.0,"","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Kellen Gary,1447575,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:35:28 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public String nextLine()",0.0,"","",2,2.0,"","",10,2.0,"","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+      System.out.print(""Enter the first: "");
+      int numb1 = input.nextInt();
+      
+      System.out.print(""Enter the second: "");
+      int numb2 = input.nextInt();
+      
+      input.nextLine();
+      
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+      
+      int diff = (numb1 - numb2);
+
+      System.out.print(name + "", "" + ""the difference is "" + diff);
+
+input.close();
+}",0.0,"","","","","","",4,1,9.0
+Sri Gottumukkala,1376667,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:35:22 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  // TODO: Your code below this line
+System.out.print(""Enter the first: "");
+int a = keyboard.nextInt();
+System.out.print(""Enter the second: "");
+int b = keyboard.nextInt();
+System.out.print(""Enter your name: "");
+String name = keyboard.nextLine();
+input.close();
+
+// for printing
+
+System.out.println(name + "" , the product is "" + a * b)
+}
+}",0.0,"","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,3,0.0,"","","","","","",9,2.0,4,1,9.0
+Chaoming Zhuang,1445737,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:35:18 UTC,1,"","","public void println(String x),public String nextLine(),public static void main(String[] args)",1.0,"","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+  System.out.print(""Enter the first: "");
+  String firstNum = input.nextLine();
+  int a = Integer.parseInt(firstNum);
+  System.out.print(""Enter the second: "");
+  String secNum = input.nextLine();
+  int b = Integer.parseInt(secNum);
+  System.out.print(""Enter your name: "");
+  String name = input.nextLine();
+  int sum = a + b;
+  System.out.print(name + "", the sum is "" + sum);
+input.close();
+}",0.0,"","","assignment=>a way to store data using a named value,variable=>setting a variable to a value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",3.0,4,2.0,"","","","","","",9,2.0,5,0,8.0
+Mason Young,1432232,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:34:20 UTC,1,"","","public static int max(int a\, int b),public String nextLine()",0.0,11,2.0,2,2.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.print(""Enter the first: "");
+   String firstNum = input.nextLine();
+   System.out.print(""Enter the second: "");
+   String secondNum = input.nextLine();
+   System.out.print(""Enter your name: "");
+   String myName = input.nextLine();
+   int valueOne = Integer.parseInt(firstNum);
+   int valueTwo = Integer.parseInt(secondNum);
+   int sumNum = (valueOne + valueTwo);
+   System.out.print(myName + "", the sum is "" + sumNum);
+input.close();
+}",0.0,"","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Gavin Ward,1380487,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:34:05 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","","","","","import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+       
+      Scanner scnr = new Scanner(System.in);
+      int firstNumber;
+      int secondNumber;
+      String fullName;
+    System.out.print(""Enter the first: "");
+    firstNumber = scnr.nextInt();
+    System.out.print(""Enter the second: "");
+    secondNumber = scnr.nextInt();
+    System.out.print(""Enter your name: "");
+    scnr.nextLine();
+    fullName = scnr.nextLine();
+    System.out.print(fullName + "", the sum is "" + (firstNumber + secondNumber));
+    scnr.close();
+}
+       
+    }",0.0,"public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","","",3,2.0,9 (the console creates a new line after),0.0,4,1,9.0
+Madeline Jacob,1033031,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:33:38 UTC,1,"","","public static int max(int a\, int b),public String nextLine()",0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  int = numOne;
+int = numTwo;
+   System.out.print(""Enter The First:(x) "");
+numOne = scnr.nextInt();
+   System.out.print(""Enter The Second:(y) "");
+numTwo = scnr.nextInt();
+System.out.print(""Enter Your Name: "");
+  int z = x + y;
+   System.out.println(z);
+
+input.close();
+}",0.0,"","","","","","","","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>computer program that executes byte code,byte code=>program that runs on a virtual machine,virtual machine=>computer hardware that executes instructions,processor=>translates source code into machine code",2.0,"","",9,2.0,4,1,6.0
+Saurav Chaudhary,1388812,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:33:37 UTC,1,"","","","",11,2.0,"","","","","","","","","public static void main(String[] args),public static int max(int a\, int b)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+// This part will allow the user to input their first number
+System.out.println(""Enter the first: "");
+int firstNum = input.nextInt();
+
+// This part will allow the user to input their second number
+System.out.println(""Enter the second: "");
+int secondNum = input.nextInt();
+
+// This part will allow the user to input their name
+System.out.println(""Enter your name: "");
+String name = input.nextLine();
+// This part is to make sure the user can input their name
+name = input.nextLine();
+
+// This part will subtract the first # with the second # and then present final output
+int diff = firstNum - secondNum;
+System.out.println(name + "", the difference is "" + diff);
+
+    input.close();
+}",0.0,"","",3,2.0,"","",4,1,9.0
+Zhen Henrikson,1052794,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:33:29 UTC,1,"","","","",11,2.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+   
+System.out.print(""Enter the first: "");
+    String firstStr = input.nextLine();
+      int numOne = Integer.parseInt(firstStr);
+      
+    System.out.print(""Enter the second: "");
+    String secStr = input.nextLine();
+      int numTwo = Integer.parseInt(secStr);
+      
+      int product = numOne * numTwo;
+      
+    System.out.print(""Enter your name: "");
+    String nameStr = input.nextLine();
+     
+    System.out.print(nameStr + "", the product is "" + product);
+
+input.close();
+}",0.0,"","","","","public static int max(int a\, int b),public String nextLine()",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",5,0,11.0
+Ria Alurkar,1017601,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:33:14 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","","",10,2.0,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","",4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+  String name;
+      
+//Read in all the values
+  System.out.print(""Enter the first: "");
+  int num1 = input.nextInt();
+  System.out.print(""Enter the second: "");
+  int num2 = input.nextInt();
+  input.nextLine();
+  System.out.print(""Enter your name: "");
+  name = input.nextLine();
+
+//Print out statement
+  System.out.println(name + "", the difference is "" + (num1 - num2));
+
+input.close();
+}",0.0,"","","","","","",4,1,9.0
+Jacob Leas,935837,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:32:59 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,11,2.0,5,0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  System.out.print(""Enter the first: "");
+String myNum1 = input.nextline();
+System.out.print(""Enter the second number: "");
+String myNum2 = input.nextline();
+System.out.print(""Enter your name: "");
+String myName = input.nextline();
+// inputs name and numbers
+int myName = Integer.parseInt(myName);
+int value1 = Integer.parseInt(myNum1);
+int value2 = Integer.parseInt(myNum2);
+int sum = value1 + value2
+System.out.print( myname + "" the sum is"" sum );
+
+input.close();
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Caitlyn Sloat,760587,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:32:33 UTC,1,"touchscreen=>an output device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",4.0,"","","","","","","","",10,2.0,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","",3,0.0,"import java.util.Scanner;
+public class Main {
+
+public static void main(String[] args) {
+   
+   int a = (firstn - secondn);
+    Scanner input = new Scanner(System.in);
+    System.out.print(""Enter the first: "");
+    String firstn = input.nextLine();
+    System.out.print(firstn);
+    System.out.println(""Enter the second: "");
+    String secondn = input.nextLine();
+    System.out.print(secondn);
+    System.out.println(""Enter your name: "");
+    String name = input.nextLine();
+    System.out.println(name + "", the difference is "" + a)
+    
+
+    input.close();
+}
+
+}",0.0,"","","","","","",3,2,6.0
+Raissa Bakari,842656,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:32:00 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+   String name;
+    int numOne;
+    int numTwo;
+   
+    System.out.print(""Enter the first: "");
+    numOne = input.nextInt();
+   
+    System.out.print(""Enter the second: "");
+    numTwo = input.nextInt();
+   
+  input.nextLine();
+   
+    System.out.print(""Enter your name: "");
+    name = input.nextLine();
+   
+  int product = numOne * numTwo;
+  System.out.print(name + "", the product is "" + product);
+
+input.close();
+}",0.0,10,2.0,"","","public String nextLine(),public static int max(int a\, int b)",2.0,"","","","","","","","",3,2.0,"","",5,0,11.0
+Areebah Khan,739979,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:31:31 UTC,1,"","","","",11,2.0,2,2.0,"","","","","","","public String nextLine(),public static int max(int a\, int b)",2.0,"","","","","import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+     
+      Scanner input = new Scanner(System.in);
+      System.out.print(""Enter the first: "");
+      int first = Integer.parseInt(input.nextLine());
+      System.out.print(""Enter the second: "");
+      int sec = Integer.parseInt(input.nextLine());
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+      System.out.println( name + "", the difference is "" + (first - sec));
+    
+      input.close();
+      }
+    }",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Luke Cooper,1432614,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:31:21 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+// TODO: Your code below this line
+
+// Asks user for their first number
+System.out.print(""Enter the first: "");
+int first = input.nextInt();
+
+// Asks user for their second number
+System.out.print(""Enter the second: "");
+int second = input.nextInt();
+
+// Asks user for name
+System.out.print(""Enter your name: "");
+String temp = input.nextLine();
+String name = input.nextLine();
+
+// Output line
+System.out.println(name + "", the difference is "" + (first - second));
+
+input.close();
+}",0.0,"","","","",9,2.0,5,0,11.0
+Brandon Ralph,1358722,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:31:21 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x)",2.0,"","","","","","",10,2.0,"import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+       // TODO: Your code here
+       Scanner input = new Scanner(System.in);
+      
+      //First number 
+       System.out.print(""Enter the first: "" );
+       var numOne = input.nextInt();
+       input.nextLine();
+       
+       //Second number
+       System.out.print(""Enter the second: "" );
+       var numTwo = input.nextInt();
+       input.nextLine();
+       
+       //Name
+       System.out.print(""Enter your name: "" );
+       var name = input.nextLine();
+       
+       //Sum
+       var sum = (numOne + numTwo);
+       System.out.println(name + "", the sum is "" + sum);
+       
+       input.close();
+    }
+
+}",0.0,"","","","","","","","","","",3,2.0,"","",5,0,11.0
+Cole Rajaratnam,1360708,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:31:20 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,"","",2,2.0,"","",10,2.0,"public class nameSum {
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+System.out.println(""Enter the first: "");
+int first = input.nextInt();
+
+System.out.println(""Enter the second: "");
+int second = input.nextInt();
+
+input.nextLine();
+
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+int sum = first + second;
+System.out.println(name + "", the sum is "" + sum);
+
+input.close();
+
+}",0.0,"","","","","","","","","","","","","","",5,0,11.0
+Ruoyu Fang,1381644,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:31:12 UTC,1,"","","","","","","","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        int num1;
+
+        int num2;
+
+        String name;
+
+        System.out.print(“Enter the first: ”);
+
+        num1= input.nextInt();
+
+        System.out.print(“Enter the second: ”);
+
+        num2 = input.nextInt();
+
+        input.nextLine();
+
+        System.out.print(“Enter your name: ”);
+
+        name = input.nextLine();
+
+        int temp = num1 * num2;
+
+        System.out.println(name + “, the product is ” + temp);
+
+    }
+
+}",0.0,"","","","","public static void main(String[] args),public static int max(int a\, int b)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","",9,2.0,4,1,9.0
+Alissa Soleil Arnaldo,1410270,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:30:58 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",11,2.0,2,2.0,"","","","","public static void main(String[] args) {
+      // ask the user for first number
+      Scanner scnr  = new Scanner(System.in);
+      System.out.print(""Enter the first: "");
+      String first = scnr.nextLine();
+      int a = Integer.parseInt(first);
+   
+
+  // ask the user for their age
+      System.out.print(""Enter the second: "");
+      String second = scnr.nextLine();
+      int b = Integer.parseInt(second);
+      
+    // ask user for their school
+      System.out.print(""Enter your name: ""); 
+      String name = scnr.nextLine();
+       int sum = a + b;
+   
+
+  // print a message 
+       System.out.println(name + "", the sum is "" + sum);
+    
+      scnr.close();
+    }",0.0,"public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","","","","","","",5,0,11.0
+Luke Chuko,1353558,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:29:58 UTC,1,"","","","","","",2,2.0,"","","","","/**
+ * Quiz
+ * @author Luke Chuko
+ * @version 20230901
+ **/
+import java.util.Scanner;
+
+public class Main {
+   
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+    int first;
+    int second;
+    String firstName;
+    String lastName;
+    System.out.print(""Enter the first: "");
+    first = input.nextInt();
+    System.out.print(""Enter the second: "");
+    second = input.nextInt();
+    System.out.print(""Enter your name: "");
+    firstName = input.next();
+    lastName = input.next();
+    System.out.println(firstName + "" "" + lastName + "", the sum is "" + (first + second));
+
+    input.close();
+
+      }
+   }",0.0,"public static int max(int a\, int b),public static void main(String[] args)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,4,1,9.0
+Emily Rosebrook,908193,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:29:24 UTC,1,"","",public static void main(String[] args),1.0,11,2.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+int firstNum;
+int secNum;
+string Name;
+
+System.out.println(“Enter the first: “);
+firstNum = scnr.nextInt();
+System.out.println(“Enter the second: “);
+
+String name = new Scanner (System.in);
+System.out.println(“Enter your name: “);
+String name = sc.nextLine();
+System.out.println( name + “, the sum is “ + firstNum + secNum);
+
+input.close();
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,2,0.0,"","","","","","","","",4,1,8.0
+Om Patel,1452037,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:29:11 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,11,2.0,"","","","","","","import java.util.Scanner;
+public class Main {
+   public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+   System.out.print(""Enter the first:""); 
+   String first = input.nextLine(); //asks the first number
+   int a = Integer.parseInt(first);
+   System.out.print(""Enter the second:"");
+   String second = input.nextLine(); //asks the second number
+   int b = Integer.parseInt(second);
+   int c = a + b; //doing addition so i can print the sum at last print statement
+   System.out.print(""Enter your name: ""); 
+   String name = input.nextLine(); //asks the name
+   System.out.println(name + "", the sum is "" + c); //prints the entered name, then ,the sum is then it will take additon of two numbers
+    input.close();
+   }
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"","","","","","","","",5,0,11.0
+Alexander Willard,1406139,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:29:07 UTC,1,"","","public static void main(String[] args),public void println(String x)",2.0,11,2.0,"","","","","","","","","","","","",4,2.0," 
+
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+   // define variables
+    int num1;
+    int num2;
+    String name;
+    
+    // take input
+    System.out.print(""Enter the first: "");
+    num1 = input.nextInt();
+    System.out.print(""Enter the sceond: "");
+    num2 = input.nextInt();
+    input.nextLine(); // whitespace fix
+    System.out.print(""Enter your name: "");
+    name = input.nextLine();
+    
+    // output
+    System.out.println(name + "", "" + ""the difference is "" + (num1 - num2));
+
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Shirish Parasa,978564,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:29:02 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","",11,2.0,"","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    System.out.print(""Enter the first: "");
+        String first = input.nextLine();
+        System.out.print(""Enter the second: "");
+        String second = input.nextLine();
+        int a = Integer.parseInt(first);
+        int b = Integer.parseInt(second);
+        System.out.print(""Enter your name: "");
+        String name = input.nextLine();
+        System.out.println(name+ "", the product is ""+(a*b));
+        input.close();
+    }
+
+}",0.0,"","","","","public static int max(int a\, int b)",1.0,"","","","","","","","",3,2.0,"","",5,0,10.0
+Alliyah Brooks,1386429,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:28:39 UTC,1,"","",public static void main(String[] args),1.0,"","","","","","",10,2.0,"import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+         
+         System.out.print(""Enter the first: "");
+         int num1 = input.nextInt(); 
+         input.nextLine();
+         
+         System.out.print(""Enter the second: "");
+         int num2 = input.nextInt();
+         input.nextLine();
+         
+         System.out.print(""Enter your name: "");
+         String userName = input.nextLine();
+         
+         System.out.println(userName + "", the sum is "" + (num1 + num2));
+       
+       input.close();
+          
+    }
+
+}",0.0,"","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>computer program that executes byte code,byte code=>program that runs on a virtual machine,virtual machine=>computer hardware that executes instructions,processor=>translates source code into machine code",2.0,3,2.0,"","",5,0,7.0
+Jian Zhao,1345502,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:28:10 UTC,1,"","","","","","","","","","",10,2.0,"public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print(""Enter the first number: "");
+        int firstNumber = input.nextInt();
+
+        System.out.print(""Enter the second number: "");
+        int secondNumber = input.nextInt();
+
+        input.nextLine(); 
+
+        System.out.print(""Enter your name: "");
+        String name = input.nextLine();
+
+        int sum = firstNumber + secondNumber;
+        System.out.println(name + "", the sum is "" + sum);
+
+        input.close();
+    }",0.0,"public String nextLine(),public static int max(int a\, int b),public void println(String x)",1.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",5,0,10.0
+Anna Krivoy,1419967,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:28:07 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","","","","import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+    // made my variables
+    int int1;
+    int int2;
+    String name;
+    // asking for user input, storing that input
+    System.out.print(""Enter the first: "");
+    int1 = input.nextInt();
+    System.out.print(""Enter the second: "");
+    int2 = input.nextInt();
+    // makes program ignore the enter from user so theres no error
+    input.nextLine();
+    System.out.print(""Enter your name: "");
+    name = input.nextLine();
+   
+    // final output
+    System.out.println( name + "", the sum is "" + (int1 + int2));
+
+    input.close();
+   }
+
+}",0.0,"","","","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,9,2.0,5,0,11.0
+Jordan Nutaitis,1408491,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:28:05 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>computer program that executes byte code,virtual machine=>a Java class that is used to read input,processor=>computer hardware that executes instructions",3.0,"","",11,2.0,"","","import java.util.Scanner;
+public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  // TODO: Your code below this line
+
+System.out.print(""Enter the first: "");
+String number = input.nextline();
+int a = Integer.parseInt(number);
+System.out.print(""Enter the second: "");
+number = input.nextline();
+int b = Integer.parseInt(number);
+System.out.print(""Enter your name: "");
+String name = input.nextline();
+int multiply = Math.multiply(a*b);
+System.out.println(name, ""the product is"" ""+"" multiple);
+
+input.close();
+}",0.0,"","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","","",3,2.0,"","",5,0,9.0
+Matthew Hickey,1301979,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:27:22 UTC,1,"","","","","","",2,2.0,"","","","","/*
+* This code will prompt the user for two nmbers and a string and
+* then print the sum of those numbers with a message to the user
+* @author: Matthew Hickey
+* @ version: 20230901
+*/
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+   
+      Scanner input = new Scanner(System.in);
+    
+      System.out.print(""Enter the first number: "");
+      String firstnum = input.nextLine();
+      int a = Integer.parseInt(firstnum);
+      
+      System.out.print(""Enter the second number: "");
+      String secondnum = input.nextLine();
+      int b = Integer.parseInt(secondnum);
+      
+      
+      
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+      
+      System.out.println(name + "", "" + ""the sum is "" + (a + b));
+      
+      input.close();
+       
+    }
+
+}",0.0,"public static int max(int a\, int b)",1.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","",9,2.0,5,0,10.0
+Arjun Pathe Ajay,908983,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:26:50 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+
+      System.out.print(""Enter the first: "");
+      int first = Integer.parseInt(input.nextLine());
+      System.out.print(""Enter the second: "");
+      int second = Integer.parseInt(input.nextLine());
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+      int product = first*second;
+      System.out.println(name + "", the product is "" + product);
+
+input.close();
+}",0.0,"","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","",4,2.0,"","","","","","",9,2.0,5,0,11.0
+David Harris,1361778,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:26:28 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+  System.out.print(""Enter your name: "");
+String name = input.nextLine();
+System.out.print(""Enter the first number: "");
+int num1 = input.nextInt();
+System.out.print(""Enter the second number: "");
+int num2 = input.nextInt();
+int sum = num1 + num2;
+System.out.println(name +"", The sum is: "" + sum);
+input.close();
+}",0.0,"public String nextLine(),public static int max(int a\, int b)",2.0,"","",4,2.0,"","","","","","","","",5,0,11.0
+Shrey Darji,1019405,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:26:21 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","","","","","","","","","","public static void main(String[] args),public static int max(int a\, int b)",0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+System.out.print(""Enter your name: "");
+     String name = input.nextLine();
+     
+     System.out.print(""Enter a number:"");
+     int num2 = input.nextInt();
+     
+     System.out.print(""Enter a new number:"");
+     int num = input.nextInt();
+     
+     int ans = num2 - num;
+     
+   System.out.println(""Hello"" + name + ""the difference is:"" + ans);
+     
+
+input.close();
+}",0.0,"","",3,2.0,9,2.0,4,1,9.0
+Dylan Earl,1432372,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:25:55 UTC,1,"","",public static void main(String[] args),1.0,"","","","","import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args) {
+
+int numOne;
+int numTwo;
+String userName;
+
+Scanner keyboard = new Scanner(System.in);
+
+System.out.print(""Enter the first: "");//get number 1
+numOne = keyboard.nextInt();
+
+System.out.print(""Enter the second: "");//get number 2
+numTwo = keyboard.nextInt();
+
+System.out.print(""Enter your name: "");//get name
+userName= keyboard.next();
+
+System.out.println(userName + "", the product is "" + numOne+numTwo);
+
+input.close();
+
+}
+}",0.0,10,2.0,"","","","","","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>program that runs on a virtual machine,byte code=>translates source code into machine code,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",3.0,"","","","",5,0,8.0
+Nihal Alluru,1440450,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:25:32 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,"","","","","","",10,2.0,"","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+
+      Scanner input = new Scanner(System.in);
+      int firstNum;
+      int secondNum;
+      String name;
+    
+      System.out.print(""Enter the first number: "");
+      firstNum = input.nextInt();
+      System.out.print(""Enter the second number: "");
+      secondNum = input.nextInt();
+      System.out.print(""Enter your name: "");
+      name = input.next();
+      System.out.print(name + "", the difference is "" + (firstNum - secondNum));
+
+      input.close();
+}
+
+}",0.0,"","",3,2.0,"","",5,0,11.0
+Riley Stanek,894167,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:25:21 UTC,1,"touchscreen=>computer hardware that executes instructions,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>an input device",3.0,"public static int max(int a\, int b),public void println(String x)",0.0,"","",4,0.0,"","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.print(""Enter a whole number: "");
+String number = input.nextLine();
+int a = Integer.parseInt(number);
+System.out.print(""Enter another whole number: "");
+number = input.nextLine();
+int b = Integer.parseInt(number);
+System.out.print(""Enter your name: "");
+String myName = keyboard.nextLine();
+System.out.println(""myName, the sum is (a, b));
+input.close();
+}",0.0,"","","","","","","","","","","","",9,2.0,3,2,5.0
+Anika Talyan,1376879,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:25:10 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public static void main(String[] args),public void println(String x)",2.0,11,2.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+     
+    System.out.print(""Enter the first: "");
+    int num = input.nextInt();
+    
+    System.out.print(""Enter the second: "");
+    int sec = input.nextInt();
+    
+  input.nextLine();
+    
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+    
+    System.out.println(name + "", the product is "" + (num * sec));
+    
+
+input.close();
+}",0.0,"","","","","","","","",4,2.0,"","","","","","","","",5,0,11.0
+Raynor He,1420897,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:25:06 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>an input device,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",4.0,public static void main(String[] args),1.0,"","",2,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+Scanner strscnr = new Scanner(System.in);
+
+System.out.print(""Enter the first: "");
+int first = input.nextInt();
+
+System.out.print(""Enter the second: "");
+int second = input.nextInt();
+
+System.out.print(""Enter your name: "");
+String name = strscnr.nextLine();
+
+System.out.println(name+"", the product is ""+(first*second));
+
+input.close();
+}",0.0,10,2.0,"","","","","","","","","","","","","","","","",5,0,9.0
+Eric Wu,1442019,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:25:05 UTC,1,"","","","",11,2.0,2,2.0,"import java.util.Scanner;
+
+public class Main {
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+   
+      System.out.print(""Enter the first: "");
+      String num1 = input.nextLine();
+      
+      System.out.print(""Enter the second: "");
+      String num2 = input.nextLine();
+
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+
+      int product = Integer.parseInt(num1) * Integer.parseInt(num2);
+
+      System.out.println(name + "", the product is "" + product);
+
+      input.close();
+ }
+}",0.0,"","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",5,0,11.0
+Kate Krabacher,1361116,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:24:48 UTC,1,"","","","","","",2,2.0,"import java.util.Scanner; 
+
+public class Main {
+   
+   public static void main(String[] args) {
+       
+    Scanner input = new Scanner(System.in);
+       
+      System.out.print(""Enter the first: "");             //getting and saving num1
+        int num1 = Integer.parseInt(input.nextLine());
+   
+      System.out.print(""Enter the second: "");            //getting and saving num2
+        int num2 = Integer.parseInt(input.nextLine());
+        
+      System.out.print(""Enter your name: "");             //gatting and saving name
+        String name = input.nextLine();
+        
+        int product = num1 * num2;                       //finding product of num1 and num2
+      System.out.println(name + "", the product is "" + product);
+     
+       input.close();
+     
+     }
+       
+}",0.0,10,2.0,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"","","","",4,1,9.0
+Michael Hu,1377782,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:23:50 UTC,1,"","","","",11,2.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+System.out.println(""Enter the first: "");
+int first = input.nextInt();
+
+System.out.println(""Enter the second: "");
+int second = input.nextInt();
+
+System.out.println(""Enter your name: "");
+String name = input.nextLine();
+
+product = first * second;
+System.out.println(name + "", the product is "" + product);
+
+input.close();
+}
+
+ ",0.0,"","","","","public static void main(String[] args),public static int max(int a\, int b),public String nextLine()",1.0,"","","","","","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>program that runs on a virtual machine,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,3,2.0,"","",5,0,10.0
+Musa Elkhatib,977406,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:23:49 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,11,2.0,"","","","","","","","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+Scanner input = new Scanner(System.in);
+int firstNumber;
+int secondNumber;
+int difference;
+String name;
+
+System.out.print(""Enter the first: "");
+firstNumber = input.nextInt();
+String tmpStr1 = input.nextLine();
+
+System.out.print(""Enter the second: "");
+secondNumber = input.nextInt();
+String tempStr2 = input.nextLine();
+
+System.out.print(""Enter your name: "");
+name = input.nextLine();
+
+   difference = firstNumber - secondNumber;
+
+System.out.println(name + "", the difference is "" + difference);
+
+input.close();
+}",0.0,"","",3,2.0,"","",5,0,11.0
+Adam Abbott,878494,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:23:45 UTC,1,"","","public String nextLine(),public void println(String x),public static void main(String[] args)",1.0,"","","","","","",10,2.0,"","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      System.out.print(""Enter the first: "");
+      String number1 = input.nextLine();
+      int a = Integer.parseInt(number1);
+      System.out.print(""Enter the second: "");
+      String number2 = input.nextLine();
+      int b = Integer.parseInt(number2);
+      System.out.print(""Enter your name: "");
+      String name = input.nextLine();
+      int c = a - b;
+      System.out.print(name + "", the difference is "" + c);
+      input.close(); 
+    }
+
+}
+
+ ",0.0,"","",3,2.0,"","",5,0,10.0
+Timothy Rogers,1342703,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:22:59 UTC,1,"","","","","","",1,0.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+
+   System.out.print(""Enter the first: "");
+    int first = Integer.parseInt(input.nextLine());
+    
+    System.out.print(""Enter the second: "");
+    int second = Integer.parseInt(input.nextLine());
+    
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+    
+    System.out.println(name + "", the product is "" + first*second);
+input.close();
+}",0.0,10,2.0,"","","public static int max(int a\, int b),public String nextLine()",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",4,1,9.0
+Ziteng Tian,1390664,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:22:24 UTC,1,"","","public static int max(int a\, int b),public String nextLine(),public void println(String x),public static void main(String[] args)",0.0,"","","","","","",10,2.0,"import java.util.Scanner;
+
+public class quiz{
+      
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      System.out.print(""Enter the first: "");
+      String number1 = input.nextLine();
+      System.out.print(""Enter the second: "");
+      String number2 = input.nextLine();
+      //let users input two numbers
+      int value1 = Integer.parseInt(number1);
+      int value2 = Integer.parseInt(number2);
+      System.out.print(""Enter the second: "");
+      String name = input.nextLine();
+      //let users input name
+      System.out.println(name + "", the sum is "" + (value1 + value2));
+      //print the results
+      input.close();
+  }
+}",0.0,"","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","",3,2.0,"","",4,1,9.0
+Elizabeth Liu,1366212,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:22:12 UTC,1,"","","","",11,2.0,2,2.0,"public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    
+    //first num
+    System.out.print(""Enter the first: "");
+    String firstNum = input.nextLine();
+    int a = Integer.parseInt(firstNum);
+    
+    //second num
+    System.out.print(""Enter the second: "");
+    String secNum = input.nextLine();
+    int b = Integer.parseInt(secNum);
+    
+    //name
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+    
+    //output
+    int x = a*b;
+    System.out.println(name + "", the product is "" + x);
+    
+
+    input.close();
+}",0.0,"","","","","public String nextLine(),public static int max(int a\, int b)",2.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","","","","","","","","",5,0,11.0
+Tianhao Sheng,1381138,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:21:19 UTC,1,"","","public static void main(String[] args),public static int max(int a\, int b)",0.0,11,2.0,2,2.0,"","","","","","","","","","","","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+  // TODO: Your code below this line
+    System.out.println(""Enter the first: "");
+    int a = input.nextInt();
+    System.out.println(""Enter the second: "");
+    int b = input.nextInt();
+    System.out.println(""Enter your name: "");
+    String name=input.nextLine();
+    int c=a-b;
+    System.out.println(name+"" the difference is ""+c);
+
+input.close();
+}",0.0,"Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer program that executes byte code,virtual machine=>program that runs on a virtual machine,processor=>computer hardware that executes instructions",3.0,"","","","",4,1,7.0
+Yiheng Fang,1446054,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:20:54 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer program that executes byte code,processor=>computer hardware that executes instructions",5.0,"public void println(String x),public static void main(String[] args)",2.0,"","","","","","","","","","","","","","","","","public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
+    System.out.print(""Enter the first: "");
+    int firstNumber = input.nextInt();
+
+    System.out.print(""Enter the second: "");
+    int secondNumber = input.nextInt();
+
+    input.nextLine();
+
+    System.out.print(""Enter your name: "");
+    String name = input.nextLine();
+
+    int difference = firstNumber - secondNumber;
+
+    System.out.println(name + "", the difference is "" + difference);
+
+    input.close();
+}",0.0,"","",3,2.0,9,2.0,5,0,11.0
+Eve Janos,759249,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:20:42 UTC,1,"","","public void println(String x),public static void main(String[] args)",2.0,11\n,0.0,"","","","","","","","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+
+  System.out.print(""Enter the first: "");
+  int firstNumber = input.nextInt();
+
+  System.out.print(""Enter the second: "");
+  int secondNumber = input.nextInt();
+  input.nextLine();
+
+  System.out.print(""Enter your name: "");
+  String userName = input.nextLine();
+
+  System.out.print(userName + "", the difference is "" + (firstNumber - secondNumber));
+
+  input.close();
+}",0.0,"","","","","","",4,1,9.0
+Aadit Keswani,1375799,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11887 | CSE 1223: BE 310 4:10 - 5:05","257771, 257772",2023-09-01 19:19:08 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","","","","","",10,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+System.out.println(""Enter the first: "");
+    int firstNumber = input.nextInt();
+System.out.println(""Enter the Second: "");
+int secondNumber = input.nextInt();
+input.nextLine();
+System.out.println(""Enter your name: "");
+String fullName = input.nextLine();
+int z = firstNumber + secondNumber;
+System.out.println(fullName + "", "" + ""the sum is "" + z);
+input.close();
+}",0.0,"","","","",4,2.0,"","","Java/C++/etc=>high level programming languages,compiler=>translates source code into machine code,byte code=>computer hardware that executes instructions,virtual machine=>computer program that executes byte code,processor=>program that runs on a virtual machine",3.0,"","","","",4,1,7.0
+Sandra Fu,1385311,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:18:42 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer hardware that executes instructions,processor=>computer program that executes byte code",3.0,"","","","",2,2.0,"","","","","","","public static int max(int a\, int b),public static void main(String[] args),public String nextLine()",1.0,"","","","","import java.util.Scanner;
+
+public class Main{
+
+    public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+        System.out.print(""Enter the first: "");
+        String oneNum = input.nextLine();
+        System.out.print(""Enter the second: "");
+        String twoNum = input.nextLine();
+        System.out.print(""Enter your name: "");
+        String userName = input.nextLine();
+        int valueone = Integer.parseInt(oneNum);
+        int valuetwo = Integer.parseInt(twoNum);
+        System.out.println(userName + "", the difference is "" + (valueone-valuetwo));
+        
+    input.close();
+}
+
+}",0.0,"","","","",9,2.0,5,0,8.0
+Emily Adanitsch,1035997,"7699 | CSE 1223: DL 113 3:00 - 3:55, 11885 | CSE 1223: BE 310 3:00 - 3:55","257771, 257770",2023-09-01 19:16:39 UTC,1,"touchscreen=>an input device,printer=>an output device,Scanner=>a Java class that is used to read input,virtual machine=>computer hardware that executes instructions,processor=>computer program that executes byte code",3.0,"","","","","","","","","","","","","public static int max(int a\, int b),public String nextLine()",2.0,"","",4,2.0,"public static void main(String[] args)
+      Scanner input = new Scanner(System.in);
+// TODO: Your code here
+       
+       int firstNum;
+       int secondNum;
+       String name; 
+       
+     System.out.print(""Enter the first: "");
+       firstNum = input.nextInt();
+     System.out.print(""Enter the second: "");
+       secondNum = input.nextInt();
+     System.out.print(""Enter your name: "");
+       name = input.nextLine();
+       
+       System.out.println(name + "", the difference is "" + (firstNum - secondNum));
+       
+       input.close();
+    }
+
+}",0.0,"","","","",9,2.0,5,0,9.0
+Quintin Amon,1045083,"11885 | CSE 1223: BE 310 3:00 - 3:55, 7699 | CSE 1223: DL 113 3:00 - 3:55","257770, 257771",2023-09-01 19:15:04 UTC,1,"","","","","","","","","","",10,2.0,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,4,2.0,"public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+System.out.print(""Enter the first: "");
+int num1 = input.nextInt();
+System.out.print(""Enter the second: "");
+int num2 = input.nextInt();
+input.nextLine();
+System.out.print(""Enter your name: "");
+String name = input.nextLine();
+
+System.out.println(name + "", the difference is "" + (num1-num2));
+
+input.close();
+
+}",0.0,"","","","","","",4,1,9.0
+Hrushi Murukuti,1386108,"11887 | CSE 1223: BE 310 4:10 - 5:05, 7699 | CSE 1223: DL 113 3:00 - 3:55","257772, 257771",2023-09-01 19:12:56 UTC,1,"","","public static int max(int a\, int b),public static void main(String[] args)",0.0,"","",2,2.0,"","",10,2.0,"","","","","assignment=>setting a variable to a value,variable=>a way to store data using a named value,syntax=>rules for well-structured sentences in a language,comment=>text in source code that is used to explain what the code does,keyboard=>a piece of computer hardware used for input",5.0,"","","public static void main(String[] args) {
+
+Scanner input = new Scanner(System.in);
+    // TODO: Your code below this line
+int first;
+int second;
+String name;
+
+first = input.nextInt();
+System.out.println(""Enter the first: "");
+second = input.nextInt();
+System.out.println(""Enter the second: "");
+name = input.nextLine();
+System.out.println(""Enter your name: "");
+int temp = first - second;
+System.out.println(name + "", the difference is "" + temp);
+
+input.close();
+}",0.0,"","","","","","",4,1,9.0
